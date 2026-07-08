@@ -1,0 +1,84 @@
+(DELAYFILE
+ (SDFVERSION "3.0")
+ (DESIGN "ro_physical_top")
+ (DATE "Tue Jul  7 10:36:46 2026")
+ (VENDOR "Parallax")
+ (PROGRAM "STA")
+ (VERSION "2.7.0")
+ (DIVIDER .)
+ (VOLTAGE 1.800::1.800)
+ (PROCESS "1.000::1.000")
+ (TEMPERATURE 25.000::25.000)
+ (TIMESCALE 1ns)
+ (CELL
+  (CELLTYPE "ro_physical_top")
+  (INSTANCE)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT enable u_nand.A (0.009:0.009:0.009) (0.003:0.003:0.003))
+    (INTERCONNECT u_buf.X ro_out (0.000:0.000:0.000))
+    (INTERCONNECT u_inv0.Y u_inv1.A (0.000:0.000:0.000))
+    (INTERCONNECT u_inv1.Y u_inv2.A (0.000:0.000:0.000))
+    (INTERCONNECT u_inv2.Y u_inv3.A (0.000:0.000:0.000))
+    (INTERCONNECT u_inv3.Y u_buf.A (0.000:0.000:0.000))
+    (INTERCONNECT u_inv3.Y u_nand.B (0.000:0.000:0.000))
+    (INTERCONNECT u_nand.Y u_inv0.A (0.000:0.000:0.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__buf_2")
+  (INSTANCE u_buf)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A X (0.196:0.196:0.196) (0.170:0.170:0.170))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_1")
+  (INSTANCE u_inv0)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.038:0.038:0.038) (0.029:0.029:0.029))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_1")
+  (INSTANCE u_inv1)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.035:0.035:0.035) (0.027:0.027:0.027))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_1")
+  (INSTANCE u_inv2)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.035:0.035:0.035) (0.027:0.027:0.027))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_1")
+  (INSTANCE u_inv3)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.045:0.045:0.045) (0.033:0.033:0.033))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__nand2_1")
+  (INSTANCE u_nand)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.036:0.036:0.036) (0.032:0.032:0.032))
+    (IOPATH B Y (0.000:0.000:0.000))
+   )
+  )
+ )
+)

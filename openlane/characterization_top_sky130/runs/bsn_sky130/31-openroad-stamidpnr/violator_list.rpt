@@ -1,0 +1,57 @@
+
+===========================================================================
+Violator List
+============================================================================
+[hold in-reg] start -> _1727_/D : -0.809055
+[hold in-reg] start -> _1724_/D : -0.668829
+[hold in-reg] clk_fast -> _1465_/D : -0.636976
+[hold in-reg] clk_stuck_high -> _1467_/D : -0.631966
+[hold in-reg] clk_slow -> _1464_/D : -0.543408
+[hold in-reg] clk_bad_duty -> _1466_/D : -0.543311
+[hold in-reg] ro_clk_1 -> _1633_/D : -0.499360
+[hold in-reg] start -> _1723_/D : -0.479253
+[hold in-reg] ro_clk_2 -> _1634_/D : -0.478818
+[hold in-reg] ro_clk_0 -> _1632_/D : -0.478161
+[hold in-reg] start -> _1720_/D : -0.461990
+[hold in-reg] clk_stuck_high -> _1707_/D : -0.458030
+[hold in-reg] clk_stuck_low -> _1468_/D : -0.450521
+[hold in-reg] start -> _1719_/D : -0.427720
+[hold in-reg] ro_clk_0 -> _1615_/D : -0.387173
+[hold in-reg] ro_clk_0 -> _1610_/D : -0.331737
+[hold in-reg] ro_clk_0 -> _1609_/D : -0.329946
+[hold in-reg] ro_clk_0 -> _1613_/D : -0.329598
+[hold in-reg] ro_clk_2 -> _1631_/D : -0.306224
+[hold in-reg] ro_clk_0 -> _1611_/D : -0.291544
+[hold in-reg] ro_clk_0 -> _1612_/D : -0.290871
+[hold in-reg] start -> _1718_/D : -0.284746
+[hold in-reg] ro_clk_2 -> _1626_/D : -0.260501
+[hold in-reg] ro_clk_2 -> _1629_/D : -0.259566
+[hold in-reg] ro_clk_2 -> _1627_/D : -0.259448
+[hold in-reg] ro_clk_0 -> _1608_/D : -0.255713
+[hold in-reg] ro_clk_2 -> _1630_/D : -0.251300
+[hold in-reg] ro_clk_0 -> _1614_/D : -0.220401
+[hold in-reg] ro_clk_2 -> _1628_/D : -0.219957
+[hold in-reg] ro_clk_2 -> _1625_/D : -0.218592
+[hold in-reg] ro_clk_1 -> _1621_/D : -0.213034
+[hold in-reg] ro_clk_1 -> _1622_/D : -0.212584
+[hold in-reg] ro_clk_1 -> _1619_/D : -0.211914
+[hold in-reg] ro_clk_1 -> _1618_/D : -0.211787
+[hold in-reg] ro_clk_1 -> _1620_/D : -0.211110
+[hold in-reg] ro_clk_2 -> _1624_/D : -0.181752
+[hold in-reg] ro_clk_1 -> _1617_/D : -0.176428
+[hold in-reg] ro_clk_1 -> _1616_/D : -0.136822
+[hold in-reg] ro_clk_1 -> _1623_/D : -0.122063
+[hold in-reg] start -> _1713_/D : -0.105959
+[hold in-reg] start -> _1712_/D : -0.105621
+[hold in-reg] start -> _1709_/D : -0.081152
+[hold in-reg] start -> _1710_/D : -0.079925
+[hold in-reg] start -> _1708_/D : -0.079489
+[hold in-reg] start -> _1717_/D : -0.020183
+[hold in-reg] start -> _1715_/D : -0.019787
+[hold in-reg] start -> _1716_/D : -0.018621
+Writing metric timing__hold_vio__count__corner:nom_tt_025C_1v80: 47
+Writing metric timing__hold_r2r__ws__corner:nom_tt_025C_1v80: 0.262579
+Writing metric timing__hold_r2r_vio__count__corner:nom_tt_025C_1v80: 0
+Writing metric timing__setup_vio__count__corner:nom_tt_025C_1v80: 0
+Writing metric timing__setup_r2r__ws__corner:nom_tt_025C_1v80: 7.293016
+Writing metric timing__setup_r2r_vio__count__corner:nom_tt_025C_1v80: 0

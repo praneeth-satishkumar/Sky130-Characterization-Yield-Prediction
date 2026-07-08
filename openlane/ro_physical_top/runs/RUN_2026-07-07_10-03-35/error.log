@@ -1,0 +1,14 @@
+Subprocess had a non-zero exit.
+Last 10 line(s):
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor2_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__xor3_4'.
+Successfully finished Verilog frontend.
+wtaf
+
+2. Executing Verilog-2005 frontend: /foss/designs/sky130_characterization/rtl/ro_physical_top.v
+Parsing SystemVerilog input from `/foss/designs/sky130_characterization/rtl/ro_physical_top.v' to AST representation.
+/foss/designs/sky130_characterization/rtl/ro_physical_top.v:12: ERROR: syntax error, unexpected OP_CAST
+
+Full log file: 'openlane/ro_physical_top/runs/RUN_2026-07-07_10-03-35/05-yosys-jsonheader/yosys-jsonheader.log'

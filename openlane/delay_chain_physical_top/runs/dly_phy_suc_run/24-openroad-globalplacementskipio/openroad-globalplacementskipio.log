@@ -1,0 +1,120 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading OpenROAD database at '/foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/21-openroad-generatepdn/delay_chain_physical_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[WARNING STA-0366] port 'null' not found.
+[INFO] Using clock null…
+[INFO] Setting output delay to: 2
+[INFO] Setting input delay to: 2
+[WARNING STA-0366] port 'null' not found.
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[WARNING STA-0419] transition time can not be specified for virtual clocks.
+[INFO] Setting timing derate to: 5%
+[WARNING STA-0450] virtual clock null can not be propagated.
++ global_placement -density 0.3 -skip_io -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.520 10.880 ) ( 94.300 87.040 ) um
+[INFO GPL-0036] Movable instances area:         45.043 um^2
+[INFO GPL-0037] Total instances area:          367.853 um^2
+[INFO GPL-0035] Pin density area adjust:         0.000 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:               155
+[INFO GPL-0007] Movable instances:                   9
+[INFO GPL-0008] Fixed instances:                   146
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                     10
+[INFO GPL-0011] Number of pins:                     18
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 100.000 100.000 ) um
+[INFO GPL-0013] Core BBox: (  5.520 10.880 ) ( 94.300 87.040 ) um
+[INFO GPL-0016] Core area:                    6761.485 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                  6761.485 um^2
+[INFO GPL-0017] Fixed instances area:          322.810 um^2
+[INFO GPL-0018] Movable instances area:         45.043 um^2
+[INFO GPL-0019] Utilization:                     0.700 %
+[INFO GPL-0020] Standard cells area:            45.043 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 9	Region center = 0
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.3000
+[INFO GPL-0024] Movable insts average area:      5.005 um^2
+[INFO GPL-0025] Ideal bin area:                 16.683 um^2
+[INFO GPL-0026] Ideal bin count:                   405
+[INFO GPL-0027] Total bin area:               6761.485 um^2
+[INFO GPL-0028] Bin count (X, Y):          16 ,     16
+[INFO GPL-0029] Bin size (W * H):       5.549 *  4.760 um
+[INFO GPL-0030] Number of bins:                    256
+[INFO GPL-0007] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.3041 |  6.461000e+00 |   +0.00% |  1.45e-13 |      
+       10 |   0.2441 |  1.552000e+00 |  -75.98% |  2.14e-13 |      
+       20 |   0.1914 |  4.950000e-01 |  -68.11% |  3.15e-13 |      
+       30 |   0.2108 |  2.470000e-01 |  -50.10% |  4.64e-13 |      
+       40 |   0.2093 |  1.220000e-01 |  -50.61% |  6.83e-13 |      
+       50 |   0.2026 |  1.320000e-01 |   +8.20% |  1.01e-12 |      
+       60 |   0.2081 |  6.600000e-02 |  -50.00% |  1.48e-12 |      
+       70 |   0.2074 |  5.900000e-02 |  -10.61% |  2.18e-12 |      
+       80 |   0.2053 |  4.900000e-02 |  -16.95% |  3.22e-12 |      
+       90 |   0.2070 |  4.400000e-02 |  -10.20% |  4.74e-12 |      
+      100 |   0.2068 |  5.100000e-02 |  +15.91% |  6.98e-12 |      
+      110 |   0.2061 |  8.800000e-02 |  +72.55% |  1.03e-11 |      
+      120 |   0.2066 |  1.180000e-01 |  +34.09% |  1.52e-11 |      
+      130 |   0.2066 |  1.910000e-01 |  +61.86% |  2.23e-11 |      
+      140 |   0.2063 |  3.140000e-01 |  +64.40% |  3.29e-11 |      
+      150 |   0.2064 |  4.540000e-01 |  +44.59% |  4.84e-11 |      
+      160 |   0.2063 |  6.840000e-01 |  +50.66% |  7.14e-11 |      
+      170 |   0.2061 |  1.012000e+00 |  +47.95% |  1.05e-10 |      
+      180 |   0.2060 |  1.490000e+00 |  +47.23% |  1.55e-10 |      
+      190 |   0.2057 |  2.120000e+00 |  +42.28% |  2.28e-10 |      
+      200 |   0.2053 |  2.964000e+00 |  +39.81% |  3.36e-10 |      
+      210 |   0.2042 |  3.974000e+00 |  +34.08% |  4.95e-10 |      
+      220 |   0.1994 |  5.084000e+00 |  +27.93% |  7.29e-10 |      
+      230 |   0.2077 |  5.884000e+00 |  +15.74% |  1.07e-09 |      
+      240 |   0.2180 |  5.866000e+00 |   -0.31% |  1.58e-09 |      
+      250 |   0.2192 |  4.442000e+00 |  -24.28% |  2.33e-09 |      
+      260 |   0.2086 |  4.008000e+00 |   -9.77% |  3.44e-09 |      
+      270 |   0.1998 |  5.920000e+00 |  +47.70% |  5.06e-09 |      
+      280 |   0.1940 |  4.727000e+00 |  -20.15% |  7.46e-09 |      
+      290 |   0.1940 |  5.186000e+00 |   +9.71% |  1.10e-08 |      
+      300 |   0.1938 |  4.513000e+00 |  -12.98% |  1.62e-08 |      
+      310 |   0.1815 |  5.111000e+00 |  +13.25% |  2.38e-08 |      
+      320 |   0.1688 |  4.643000e+00 |   -9.16% |  3.51e-08 |      
+      330 |   0.1571 |  4.341000e+00 |   -6.50% |  5.17e-08 |      
+      340 |   0.1472 |  4.340000e+00 |   -0.02% |  7.62e-08 |      
+      350 |   0.1340 |  4.551000e+00 |   +4.86% |  1.12e-07 |      
+      360 |   0.1170 |  5.765000e+00 |  +26.68% |  1.65e-07 |      
+      370 |   0.1158 |  6.581000e+00 |  +14.15% |  2.44e-07 |      
+      380 |   0.1014 |  7.732000e+00 |  +17.49% |  3.59e-07 |      
+      381 |   0.0983 |  7.831000e+00 |          |  3.88e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 381
+[INFO GPL-1002] Placed Cell Area               45.0432
+[INFO GPL-1003] Available Free Area          6438.6752
+[INFO GPL-1004] Minimum Feasible Density        0.0100 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.0078
+[INFO GPL-1008]     - For 80% usage of free space: 0.0087
+[INFO GPL-1009]     - For 50% usage of free space: 0.0140
+[INFO GPL-1014] Final placement area: 45.04 (+0.00%)
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                                56     210.20
+  Tap cell                                 90     112.61
+  Buffer                                    9      45.04
+  Total                                   155     367.85
+Writing OpenROAD database to '/foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/24-openroad-globalplacementskipio/delay_chain_physical_top.odb'…
+Writing netlist to '/foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/24-openroad-globalplacementskipio/delay_chain_physical_top.nl.v'…
+Writing powered netlist to '/foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/24-openroad-globalplacementskipio/delay_chain_physical_top.pnl.v'…
+Writing layout to '/foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/24-openroad-globalplacementskipio/delay_chain_physical_top.def'…
+Writing timing constraints to '/foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/24-openroad-globalplacementskipio/delay_chain_physical_top.sdc'…

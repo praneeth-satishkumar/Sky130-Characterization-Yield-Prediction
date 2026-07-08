@@ -1,0 +1,69 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO ro_physical_top
+  CLASS BLOCK ;
+  FOREIGN ro_physical_top ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 100.000 BY 100.000 ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 24.340 10.640 25.940 87.280 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 30.030 94.300 31.630 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 21.040 10.640 22.640 87.280 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 26.730 94.300 28.330 ;
+    END
+  END VPWR
+  PIN enable
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.213000 ;
+    PORT
+      LAYER met2 ;
+        RECT 50.690 0.000 50.970 0.280 ;
+    END
+  END enable
+  PIN ro_out
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.702900 ;
+    PORT
+      LAYER met2 ;
+        RECT 49.770 0.000 50.050 0.280 ;
+    END
+  END ro_out
+  OBS
+      LAYER nwell ;
+        RECT 5.330 10.795 94.490 87.125 ;
+      LAYER li1 ;
+        RECT 5.520 10.795 94.300 87.125 ;
+      LAYER met1 ;
+        RECT 5.520 10.640 94.300 87.280 ;
+      LAYER met2 ;
+        RECT 21.070 0.560 54.640 87.225 ;
+        RECT 21.070 0.280 49.490 0.560 ;
+        RECT 50.330 0.280 50.410 0.560 ;
+        RECT 51.250 0.280 54.640 0.560 ;
+      LAYER met3 ;
+        RECT 21.050 10.715 25.930 87.205 ;
+  END
+END ro_physical_top
+END LIBRARY
+

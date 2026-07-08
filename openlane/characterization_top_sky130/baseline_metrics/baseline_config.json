@@ -1,0 +1,14 @@
+{
+	"DESIGN_NAME": "characterization_top",
+	"VERILOG_FILES": [
+		"dir::../../rtl/ro_counter.v",
+		"dir::../../rtl/delay_chain_block.v",
+		"dir::../../rtl/characterization_top.v"
+	],
+	"CLOCK_PORT": "clk",
+	"CLOCK_PERIOD": 10.0,
+	"FP_SIZING": "absolute",
+	"DIE_AREA": "0 0 500 500",
+	"PL_TARGET_DENSITY": 0.45,
+	"FP_CORE_UTIL": 35
+}

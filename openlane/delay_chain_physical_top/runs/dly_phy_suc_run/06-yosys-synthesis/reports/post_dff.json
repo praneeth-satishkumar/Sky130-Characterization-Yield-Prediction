@@ -1,0 +1,43 @@
+{
+   "creator": "Yosys 0.65 (git sha1 b85cad634, g++ 13.3.0-6ubuntu2~24.04.1 -fPIC -O3)",
+   "invocation": "stat -json -liberty /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/f4275efb3afc497f983dd2dc6b1c05ec.lib ",
+   "modules": {
+      "\\delay_chain_physical_top": {
+         "num_wires":         10,
+         "num_wire_bits":     10,
+         "num_pub_wires":     10,
+         "num_pub_wire_bits": 10,
+         "num_ports":         2,
+         "num_port_bits":     2,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         9,
+         "num_submodules":       0,
+         "area":              45.043200,
+         "sequential_area":    0.000000,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__buf_2": 9
+         }
+      }
+   },
+      "design": {
+         "num_wires":         10,
+         "num_wire_bits":     10,
+         "num_pub_wires":     10,
+         "num_pub_wire_bits": 10,
+         "num_ports":         2,
+         "num_port_bits":     2,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         9,
+         "num_submodules":       0,
+         "area":              45.043200,
+         "sequential_area":    0.000000,
+         "num_cells_by_type": {
+            "sky130_fd_sc_hd__buf_2": 9
+         }
+      }
+}
+

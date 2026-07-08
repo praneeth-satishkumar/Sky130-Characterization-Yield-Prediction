@@ -1,0 +1,1 @@
+netgen -batch source /foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/70-netgen-lvs/lvs_script.lvs

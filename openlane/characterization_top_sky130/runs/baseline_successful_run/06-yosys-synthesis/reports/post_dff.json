@@ -1,0 +1,63 @@
+{
+   "creator": "Yosys 0.65 (git sha1 b85cad634, g++ 13.3.0-6ubuntu2~24.04.1 -fPIC -O3)",
+   "invocation": "stat -json -liberty /foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/fecc75a412654c86969891fada719b48.lib -liberty /foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/76ae60591c8b4d2dba8c4d1de2f41612.lib ",
+   "modules": {
+      "\\characterization_top": {
+         "num_wires":         1147,
+         "num_wire_bits":     1417,
+         "num_pub_wires":     56,
+         "num_pub_wire_bits": 310,
+         "num_ports":         22,
+         "num_port_bits":     104,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1373,
+         "num_submodules":       0,
+         "area":              13226.976000,
+         "sequential_area":    13226.976000,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 312,
+            "$_AND_": 24,
+            "$_MUX_": 257,
+            "$_NAND_": 57,
+            "$_NOR_": 42,
+            "$_NOT_": 280,
+            "$_ORNOT_": 21,
+            "$_OR_": 65,
+            "$_XNOR_": 17,
+            "$_XOR_": 28,
+            "sg13g2_dfrbpq_1": 270
+         }
+      }
+   },
+      "design": {
+         "num_wires":         1147,
+         "num_wire_bits":     1417,
+         "num_pub_wires":     56,
+         "num_pub_wire_bits": 310,
+         "num_ports":         22,
+         "num_port_bits":     104,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         1373,
+         "num_submodules":       0,
+         "area":              13226.976000,
+         "sequential_area":    13226.976000,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 312,
+            "$_AND_": 24,
+            "$_MUX_": 257,
+            "$_NAND_": 57,
+            "$_NOR_": 42,
+            "$_NOT_": 280,
+            "$_ORNOT_": 21,
+            "$_OR_": 65,
+            "$_XNOR_": 17,
+            "$_XOR_": 28,
+            "sg13g2_dfrbpq_1": 270
+         }
+      }
+}
+

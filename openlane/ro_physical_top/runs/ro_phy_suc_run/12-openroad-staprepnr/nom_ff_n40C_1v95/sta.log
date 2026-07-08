@@ -1,0 +1,374 @@
++ define_corners nom_ff_n40C_1v95
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading cell library for the 'nom_ff_n40C_1v95' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading top-level netlist at '/foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/06-yosys-synthesis/ro_physical_top.nl.v'…
+Linking design 'ro_physical_top' from netlist…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+Warning: base.sdc line 15, port 'null' not found.
+[INFO] Using clock null…
+[INFO] Setting output delay to: 2
+[INFO] Setting input delay to: 2
+Warning: base.sdc line 32, port 'null' not found.
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+Warning: base.sdc line 69, transition time can not be specified for virtual clocks.
+[INFO] Setting timing derate to: 5%
+%OL_CREATE_REPORT min.rpt
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 ^ input external delay
+     1    0.002387    0.012908    0.006130    2.006130 ^ enable (in)
+                                                         enable (net)
+                      0.012908    0.000000    2.006130 ^ u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.002214    0.015571    0.019057    2.025186 v u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.015571    0.000000    2.025186 v u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.002392    0.022238    0.025926    2.051112 ^ u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.022238    0.000000    2.051112 ^ u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.002214    0.012387    0.017116    2.068228 v u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.012387    0.000000    2.068228 v u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.002392    0.022157    0.024748    2.092976 ^ u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.022157    0.000000    2.092976 ^ u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.003938    0.016606    0.021558    2.114534 v u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.016606    0.000000    2.114534 v u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.061540    0.111596    2.226130 v u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         ro_out (net)
+                      0.061540    0.000000    2.226130 v ro_out (out)
+                                              2.226130   data arrival time
+
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -2.226130   data arrival time
+---------------------------------------------------------------------------------------------
+                                              3.976130   slack (MET)
+
+
+
+%OL_END_REPORT
+%OL_CREATE_REPORT max.rpt
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.002259    0.004088    0.001776    2.001776 v enable (in)
+                                                         enable (net)
+                      0.004088    0.000000    2.001776 v u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.002392    0.025178    0.025091    2.026867 ^ u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.025178    0.000000    2.026867 ^ u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.002214    0.012989    0.017581    2.044448 v u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.012989    0.000000    2.044448 v u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.002392    0.022173    0.024971    2.069418 ^ u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.022173    0.000000    2.069418 ^ u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.002214    0.012376    0.017100    2.086518 v u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.012376    0.000000    2.086518 v u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.004300    0.033832    0.033263    2.119781 ^ u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.033832    0.000000    2.119781 ^ u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.127421    0.136499    2.256280 ^ u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         ro_out (net)
+                      0.127421    0.000000    2.256280 ^ ro_out (out)
+                                              2.256280   data arrival time
+
+                      0.000000   10.000000   10.000000   clock null (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -2.256280   data arrival time
+---------------------------------------------------------------------------------------------
+                                              5.493721   slack (MET)
+
+
+
+%OL_END_REPORT
+%OL_CREATE_REPORT checks.rpt
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.002259    0.004088    0.001776    2.001776 v enable (in)
+                                                         enable (net)
+                      0.004088    0.000000    2.001776 v u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.002392    0.025178    0.025091    2.026867 ^ u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.025178    0.000000    2.026867 ^ u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.002214    0.012989    0.017581    2.044448 v u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.012989    0.000000    2.044448 v u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.002392    0.022173    0.024971    2.069418 ^ u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.022173    0.000000    2.069418 ^ u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.002214    0.012376    0.017100    2.086518 v u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.012376    0.000000    2.086518 v u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.004300    0.033832    0.033263    2.119781 ^ u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.033832    0.000000    2.119781 ^ u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.127421    0.136499    2.256280 ^ u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         ro_out (net)
+                      0.127421    0.000000    2.256280 ^ ro_out (out)
+                                              2.256280   data arrival time
+
+                      0.000000   10.000000   10.000000   clock null (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -2.256280   data arrival time
+---------------------------------------------------------------------------------------------
+                                              5.493721   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 7 unannotated drivers.
+ enable
+ u_buf/X
+ u_inv0/Y
+ u_inv1/Y
+ u_inv2/Y
+ u_inv3/Y
+ u_nand/Y
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+%OL_METRIC_I design__max_slew_violation__count__corner:nom_ff_n40C_1v95 0
+max fanout violation count 0
+%OL_METRIC_I design__max_fanout_violation__count__corner:nom_ff_n40C_1v95 0
+max cap violation count 0
+%OL_METRIC_I design__max_cap_violation__count__corner:nom_ff_n40C_1v95 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There is 1 combinational loop in the design.
+  u_nand/Y
+  u_inv0/A
+  u_inv0/Y
+  u_inv1/A
+  u_inv1/Y
+  u_inv2/A
+  u_inv2/Y
+  u_inv3/A
+  u_inv3/Y
+  u_nand/B
+  | loop cut point
+  u_nand/Y
+  --------------------------------
+%OL_END_REPORT
+%OL_CREATE_REPORT power.rpt
+
+===========================================================================
+ report_power
+============================================================================
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+Group                    Internal    Switching      Leakage        Total
+                            Power        Power        Power        Power (Watts)
+------------------------------------------------------------------------
+Sequential           0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Combinational        5.415969e-09 0.000000e+00 2.676994e-11 5.442739e-09 100.0%
+Clock                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Macro                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Pad                  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+------------------------------------------------------------------------
+Total                5.415969e-09 0.000000e+00 2.676994e-11 5.442739e-09 100.0%
+                            99.5%         0.0%         0.5%
+%OL_METRIC_F power__internal__total 5.415969006605792e-9
+%OL_METRIC_F power__switching__total 0.0
+%OL_METRIC_F power__leakage__total 2.676994043104841e-11
+%OL_METRIC_F power__total 5.4427391482647636e-9
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.min.rpt
+
+===========================================================================
+Clock Skew (Hold)
+============================================================================
+%OL_METRIC_F clock__skew__worst_hold__corner:nom_ff_n40C_1v95 0.0
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+Clock null
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.max.rpt
+
+===========================================================================
+Clock Skew (Setup)
+============================================================================
+%OL_METRIC_F clock__skew__worst_setup__corner:nom_ff_n40C_1v95 0.0
+======================= nom_ff_n40C_1v95 Corner ===================================
+
+Clock null
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.min.rpt
+
+===========================================================================
+Worst Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__ws__corner:nom_ff_n40C_1v95 3.976129760206253
+nom_ff_n40C_1v95: 3.976129760206253
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.max.rpt
+
+===========================================================================
+Worst Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__ws__corner:nom_ff_n40C_1v95 5.493720300839362
+nom_ff_n40C_1v95: 5.493720300839362
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.min.rpt
+
+===========================================================================
+Total Negative Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__tns__corner:nom_ff_n40C_1v95 0.0
+nom_ff_n40C_1v95: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.max.rpt
+
+===========================================================================
+Total Negative Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__tns__corner:nom_ff_n40C_1v95 0.0
+nom_ff_n40C_1v95: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.min.rpt
+
+===========================================================================
+Worst Negative Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__wns__corner:nom_ff_n40C_1v95 0
+nom_ff_n40C_1v95: 0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.max.rpt
+
+===========================================================================
+Worst Negative Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__wns__corner:nom_ff_n40C_1v95 0.0
+nom_ff_n40C_1v95: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT violator_list.rpt
+
+===========================================================================
+Violator List
+============================================================================
+%OL_METRIC_I timing__hold_vio__count__corner:nom_ff_n40C_1v95 0
+%OL_METRIC_F timing__hold_r2r__ws__corner:nom_ff_n40C_1v95 inf
+%OL_METRIC_I timing__hold_r2r_vio__count__corner:nom_ff_n40C_1v95 0
+%OL_METRIC_I timing__setup_vio__count__corner:nom_ff_n40C_1v95 0
+%OL_METRIC_F timing__setup_r2r__ws__corner:nom_ff_n40C_1v95 inf
+%OL_METRIC_I timing__setup_r2r_vio__count__corner:nom_ff_n40C_1v95 0
+%OL_END_REPORT
+%OL_CREATE_REPORT unpropagated.rpt
+null
+%OL_END_REPORT
+%OL_CREATE_REPORT clock.rpt
+Clock: null
+Sources: 
+Generated: no
+Virtual: yes
+Propagated: no
+Period: 10.000000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+null                 10.000000    0.000000  5.000000
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock null
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+null period_min = 0.00 fmax = inf
+%OL_END_REPORT
+Writing SDF files for all corners…

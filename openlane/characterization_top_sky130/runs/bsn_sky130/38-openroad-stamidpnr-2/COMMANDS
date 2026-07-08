@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/38-openroad-stamidpnr-2/or_metrics_out.json /usr/local/lib/python3.12/dist-packages/librelane/scripts/openroad/sta/corner.tcl

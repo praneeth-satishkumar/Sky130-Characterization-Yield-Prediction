@@ -1,0 +1,6 @@
+- cell: characterization_top
+  inout: []
+  input: []
+  output:
+  - clock_status_reg[6]
+  - clock_status_reg[7]

@@ -1,0 +1,231 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_typ_1p20V_25C Corner ===================================
+
+Startpoint: rst (input port clocked by clk)
+Endpoint: _1969_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  2.000000    2.000000 v input external delay
+   270    1.272910    0.996747    0.759427    2.759427 v rst (in)
+                                                         rst (net)
+                      1.057834    0.000000    2.759427 v _1796_/A (sg13g2_inv_1)
+     1    0.006133    0.162106    0.147086    2.906513 ^ _1796_/Y (sg13g2_inv_1)
+                                                         _0183_ (net)
+                      0.162106    0.000031    2.906544 ^ _1969_/RESET_B (sg13g2_dfrbpq_1)
+                                              2.906544   data arrival time
+
+                                 10.000000   10.000000   clock clk (rise edge)
+                                  0.000000   10.000000   clock source latency
+   270    1.133042    1.147505    0.709489   10.709489 ^ clk (in)
+                                                         clk (net)
+                      1.152250    0.000000   10.709489 ^ _1969_/CLK (sg13g2_dfrbpq_1)
+                                 -0.250000   10.459489   clock uncertainty
+                                  0.000000   10.459489   clock reconvergence pessimism
+                                 -0.057116   10.402372   library recovery time
+                                             10.402372   data required time
+---------------------------------------------------------------------------------------------
+                                             10.402372   data required time
+                                             -2.906544   data arrival time
+---------------------------------------------------------------------------------------------
+                                              7.495828   slack (MET)
+
+
+Startpoint: _2084_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: ro_count_reg_2[4] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+   270    1.253842    1.268909    1.024738    1.024738 ^ clk (in)
+                                                         clk (net)
+                      1.400523    0.000000    1.024738 ^ _2084_/CLK (sg13g2_dfrbpq_1)
+     2    0.021898    0.096147    0.461834    1.486573 ^ _2084_/Q (sg13g2_dfrbpq_1)
+                                                         ro_count_reg_2[4] (net)
+                      0.096147    0.000000    1.486573 ^ ro_count_reg_2[4] (out)
+                                              1.486573   data arrival time
+
+                                 10.000000   10.000000   clock clk (rise edge)
+                                  0.000000   10.000000   clock network delay (propagated)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -1.486573   data arrival time
+---------------------------------------------------------------------------------------------
+                                              6.263427   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_typ_1p20V_25C Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_typ_1p20V_25C Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+clk                                       8    270   -262 (VIOLATED)
+rst                                       8    270   -262 (VIOLATED)
+_1545_/Y                                  8     49    -41 (VIOLATED)
+_1216_/X                                  8     38    -30 (VIOLATED)
+_1222_/Y                                  8     35    -27 (VIOLATED)
+_1213_/Y                                  8     29    -21 (VIOLATED)
+_0973_/Y                                  8     28    -20 (VIOLATED)
+_1115_/Y                                  8     26    -18 (VIOLATED)
+_1143_/X                                  8     26    -18 (VIOLATED)
+_1214_/Y                                  8     18    -10 (VIOLATED)
+_0978_/Y                                  8     17     -9 (VIOLATED)
+_1402_/Y                                  8     17     -9 (VIOLATED)
+_1436_/Y                                  8     17     -9 (VIOLATED)
+_1363_/X                                  8     16     -8 (VIOLATED)
+_1403_/X                                  8     16     -8 (VIOLATED)
+_1437_/X                                  8     16     -8 (VIOLATED)
+_2162_/Q                                  8     16     -8 (VIOLATED)
+_0983_/Y                                  8     12     -4 (VIOLATED)
+_1474_/Y                                  8     12     -4 (VIOLATED)
+_1475_/X                                  8     12     -4 (VIOLATED)
+
+max capacitance
+
+Pin                                        Limit         Cap       Slack
+------------------------------------------------------------------------
+_1545_/Y                                0.300000    0.387936   -0.087936 (VIOLATED)
+rst                                     1.200000    1.278504   -0.078504 (VIOLATED)
+clk                                     1.200000    1.253842   -0.053842 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 0 unannotated drivers.
+Found 93 partially unannotated drivers.
+ _1893_/Q
+ _1894_/Q
+ _1895_/Q
+ _1896_/Q
+ _1897_/Q
+ _2064_/Q
+ _2065_/Q
+ _2066_/Q
+ _2067_/Q
+ _2068_/Q
+ _2069_/Q
+ _2070_/Q
+ _2071_/Q
+ _2072_/Q
+ _2073_/Q
+ _2074_/Q
+ _2075_/Q
+ _2076_/Q
+ _2077_/Q
+ _2078_/Q
+ _2079_/Q
+ _2080_/Q
+ _2081_/Q
+ _2082_/Q
+ _2083_/Q
+ _2084_/Q
+ _2085_/Q
+ _2086_/Q
+ _2087_/Q
+ _2088_/Q
+ _2089_/Q
+ _2090_/Q
+ _2091_/Q
+ _2092_/Q
+ _2093_/Q
+ _2094_/Q
+ _2095_/Q
+ _2096_/Q
+ _2097_/Q
+ _2098_/Q
+ _2099_/Q
+ _2100_/Q
+ _2101_/Q
+ _2102_/Q
+ _2103_/Q
+ _2104_/Q
+ _2105_/Q
+ _2106_/Q
+ _2107_/Q
+ _2108_/Q
+ _2109_/Q
+ _2110_/Q
+ _2111_/Q
+ _2112_/Q
+ _2113_/Q
+ _2114_/Q
+ _2115_/Q
+ _2116_/Q
+ _2117_/Q
+ _2118_/Q
+ _2119_/Q
+ _2120_/Q
+ _2121_/Q
+ _2122_/Q
+ _2123_/Q
+ _2124_/Q
+ _2125_/Q
+ _2126_/Q
+ _2127_/Q
+ _2128_/Q
+ _2129_/Q
+ _2130_/Q
+ _2131_/Q
+ _2132_/Q
+ _2133_/Q
+ _2134_/Q
+ _2135_/Q
+ _2136_/Q
+ _2137_/Q
+ _2138_/Q
+ _2139_/Q
+ _2140_/Q
+ _2141_/Q
+ _2142_/Q
+ _2143_/Q
+ _2144_/Q
+ _2145_/Q
+ _2146_/Q
+ _2147_/Q
+ _2148_/Q
+ _2163_/L_LO
+ _2164_/L_LO
+ _2165_/X
+
+===========================================================================
+max slew violation count 0
+Writing metric design__max_slew_violation__count__corner:nom_typ_1p20V_25C: 0
+max fanout violation count 20
+Writing metric design__max_fanout_violation__count__corner:nom_typ_1p20V_25C: 20
+max cap violation count 3
+Writing metric design__max_cap_violation__count__corner:nom_typ_1p20V_25C: 3
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================

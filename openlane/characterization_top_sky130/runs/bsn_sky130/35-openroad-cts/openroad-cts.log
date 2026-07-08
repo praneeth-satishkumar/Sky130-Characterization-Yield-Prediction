@@ -1,0 +1,157 @@
+Reading timing models for corner max_tt_025C_1v80…
+Reading timing library for the 'max_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading timing models for corner min_ss_100C_1v60…
+Reading timing library for the 'min_ss_100C_1v60' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+[WARNING STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+Reading timing models for corner max_ff_n40C_1v95…
+Reading timing library for the 'max_ff_n40C_1v95' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+Reading timing models for corner nom_ff_n40C_1v95…
+Reading timing library for the 'nom_ff_n40C_1v95' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+[WARNING STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+Reading timing models for corner max_ss_100C_1v60…
+Reading timing library for the 'max_ss_100C_1v60' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+[WARNING STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+Reading timing models for corner min_tt_025C_1v80…
+Reading timing library for the 'min_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+[WARNING STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib line 1, library sky130_fd_sc_hd__tt_025C_1v80 already exists.
+Reading timing models for corner nom_ss_100C_1v60…
+Reading timing library for the 'nom_ss_100C_1v60' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+[WARNING STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib line 1, library sky130_fd_sc_hd__ss_100C_1v60 already exists.
+Reading timing models for corner min_ff_n40C_1v95…
+Reading timing library for the 'min_ff_n40C_1v95' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib'…
+[WARNING STA-1140] /foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1, library sky130_fd_sc_hd__ff_n40C_1v95 already exists.
+Reading OpenROAD database at '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/34-openroad-detailedplacement/characterization_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2.0
+[INFO] Setting input delay to: 2.0
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Configuring cts characterization…
++ configure_cts_characterization 
+[INFO] Performing clock tree synthesis…
+[INFO] Looking for the following net(s): clk
+[INFO] Running Clock Tree Synthesis…
++ clock_tree_synthesis -buf_list sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_2 -root_buf sky130_fd_sc_hd__clkbuf_16 -sink_clustering_enable -apply_ndr half
+[INFO CTS-0050] Root buffer is sky130_fd_sc_hd__clkbuf_16.
+[INFO CTS-0051] Sink buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    sky130_fd_sc_hd__clkbuf_2
+                    sky130_fd_sc_hd__clkbuf_4
+                    sky130_fd_sc_hd__clkbuf_8
+[INFO CTS-0049] Characterization buffer is sky130_fd_sc_hd__clkbuf_8.
+[INFO CTS-0007] Net "clk" found for clock "clk".
+[INFO CTS-0010]  Clock net "clk" has 270 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 3 buffer(s) types.
+[INFO CTS-0201] 0 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 270.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 13600  dbu (13 um).
+[INFO CTS-0206] Best clustering solution was found from clustering size of 10 and clustering diameter of 50.
+[INFO CTS-0019]  Total number of sinks after clustering: 24.
+[INFO CTS-0024]  Normalized sink region: [(13.9811, 2.80871), (22.6051, 34.3752)].
+[INFO CTS-0025]     Width:  8.6241.
+[INFO CTS-0026]     Height: 31.5665.
+ Level 1
+    Direction: Vertical
+    Sinks per sub-region: 12
+    Sub-region size: 8.6241 X 15.7833
+[INFO CTS-0034]     Segment length (rounded): 8.
+ Level 2
+    Direction: Horizontal
+    Sinks per sub-region: 6
+    Sub-region size: 4.3120 X 15.7833
+[INFO CTS-0034]     Segment length (rounded): 2.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 10.
+[INFO CTS-0035]  Number of sinks covered: 24.
+[INFO CTS-0018]     Created 29 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 3.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 3.
+[INFO CTS-0015]     Created 29 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 6:5, 7:1, 9:1, 10:4, 11:4, 12:7, 13:4, 14:2..
+[INFO CTS-0017]     Max level of the clock tree: 2.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 286
+[INFO CTS-0100]  Leaf buffers 24
+[INFO CTS-0101]  Average sink wire length 565.14 um
+[INFO CTS-0102]  Path depth 3 - 3
+[INFO CTS-0207]  Dummy loads inserted 16
+[INFO] Repairing long wires on clock nets…
+[INFO RSZ-0058] Using max wire length 6884um.
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 180 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               350    1313.76
+  Tap cell                               3274    4096.43
+  Buffer                                    1       5.00
+  Clock buffer                             40     575.55
+  Timing Repair Buffer                    213    2021.94
+  Inverter                                286    1073.53
+  Clock inverter                            5      57.56
+  Sequential cell                         270    7094.30
+  Multi-Input combinational cell          448    4305.38
+  Total                                  4887   20543.45
+Writing OpenROAD database to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.odb'…
+Writing netlist to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.nl.v'…
+Writing powered netlist to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.pnl.v'…
+Writing layout to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.def'…
+Writing timing constraints to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.sdc'…
+[INFO] Legalizing…
++ detailed_placement -max_displacement  500 100 
+Placement Analysis
+---------------------------------
+total displacement        188.4 u
+average displacement        0.0 u
+max displacement            6.0 u
+original HPWL           36768.4 u
+legalized HPWL          37476.0 u
+delta HPWL                    2 %
+
+[INFO DPL-0020] Mirrored 421 instances
+[INFO DPL-0021] HPWL before           37476.0 u
+[INFO DPL-0022] HPWL after            36758.9 u
+[INFO DPL-0023] HPWL delta               -1.9 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               350    1313.76
+  Tap cell                               3274    4096.43
+  Buffer                                    1       5.00
+  Clock buffer                             40     575.55
+  Timing Repair Buffer                    213    2021.94
+  Inverter                                286    1073.53
+  Clock inverter                            5      57.56
+  Sequential cell                         270    7094.30
+  Multi-Input combinational cell          448    4305.38
+  Total                                  4887   20543.45
+Writing OpenROAD database to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.odb'…
+Writing netlist to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.nl.v'…
+Writing powered netlist to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.pnl.v'…
+Writing layout to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.def'…
+Writing timing constraints to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/35-openroad-cts/characterization_top.sdc'…
+%OL_CREATE_REPORT cts.rpt
+Total number of Clock Roots: 1.
+Total number of Buffers Inserted: 29.
+Total number of Clock Subnets: 29.
+Total number of Sinks: 270.
+Cells used:
+  sky130_fd_sc_hd__clkbuf_8: 24
+  sky130_fd_sc_hd__clkbuf_16: 5
+Dummys used:
+  sky130_fd_sc_hd__bufinv_16: 1
+  sky130_fd_sc_hd__clkbuf_4: 5
+  sky130_fd_sc_hd__clkbuf_8: 6
+  sky130_fd_sc_hd__clkinv_2: 2
+  sky130_fd_sc_hd__inv_6: 2
+%OL_END_REPORT

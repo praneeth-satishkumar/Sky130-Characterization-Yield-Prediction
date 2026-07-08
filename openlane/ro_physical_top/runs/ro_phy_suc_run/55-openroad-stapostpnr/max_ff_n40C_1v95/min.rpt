@@ -1,0 +1,59 @@
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= max_ff_n40C_1v95 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 ^ input external delay
+     1    0.003655    0.016990    0.009531    2.009531 ^ enable (in)
+                                                         enable (net)
+                      0.016992    0.000000    2.009531 ^ input1/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.003420    0.035937    0.157075    2.166606 ^ input1/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         net1 (net)
+                      0.035938    0.000247    2.166852 ^ u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.002939    0.021002    0.025976    2.192829 v u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.021013    0.000201    2.193030 v u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.003338    0.027027    0.031977    2.225007 ^ u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.027041    0.000239    2.225246 ^ u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.002919    0.014636    0.019689    2.244935 v u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.014647    0.000199    2.245134 v u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.003238    0.026396    0.029249    2.274383 ^ u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.026400    0.000240    2.274623 ^ u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.004841    0.019385    0.024503    2.299126 v u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.019387    0.000161    2.299287 v u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.002390    0.016284    0.065629    2.364916 v u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         net2 (net)
+                      0.016284    0.000109    2.365026 v output2/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.035716    0.182954    0.274949    2.639974 v output2/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         ro_out (net)
+                      0.182976    0.001986    2.641961 v ro_out (out)
+                                              2.641961   data arrival time
+
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -2.641961   data arrival time
+---------------------------------------------------------------------------------------------
+                                              4.391961   slack (MET)
+
+
+

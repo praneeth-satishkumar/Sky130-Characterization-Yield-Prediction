@@ -1,0 +1,87 @@
+Reading timing models for corner nom_fast_1p32V_m40C…
+Reading timing library for the 'nom_fast_1p32V_m40C' corner at '/foss/pdks/ihp-sg13g2/libs.ref/sg13g2_stdcell/lib/sg13g2_stdcell_fast_1p32V_m40C.lib'…
+Reading timing library for the 'nom_fast_1p32V_m40C' corner at '/foss/pdks/ihp-sg13g2/libs.ref/sg13g2_io/lib/sg13g2_io_fast_1p32V_3p6V_m40C.lib'…
+Reading timing models for corner nom_slow_1p08V_125C…
+Reading timing library for the 'nom_slow_1p08V_125C' corner at '/foss/pdks/ihp-sg13g2/libs.ref/sg13g2_stdcell/lib/sg13g2_stdcell_slow_1p08V_125C.lib'…
+Reading timing library for the 'nom_slow_1p08V_125C' corner at '/foss/pdks/ihp-sg13g2/libs.ref/sg13g2_io/lib/sg13g2_io_slow_1p08V_3p0V_125C.lib'…
+Reading timing models for corner nom_typ_1p20V_25C…
+Reading timing library for the 'nom_typ_1p20V_25C' corner at '/foss/pdks/ihp-sg13g2/libs.ref/sg13g2_stdcell/lib/sg13g2_stdcell_typ_1p20V_25C.lib'…
+Reading timing library for the 'nom_typ_1p20V_25C' corner at '/foss/pdks/ihp-sg13g2/libs.ref/sg13g2_io/lib/sg13g2_io_typ_1p2V_3p3V_25C.lib'…
+Reading OpenROAD database at '/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/35-openroad-cts/characterization_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2.0
+[INFO] Setting input delay to: 2.0
+[INFO] Setting load to: 0.006
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.15
+[INFO] Setting timing derate to: 5%
++ repair_timing -verbose -setup -setup_margin 0.05000000000000000277555756156289135105907917022705078125 -max_buffer_percent 50
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove CloneMove SplitLoadMove 
+[INFO RSZ-0098] No setup violations found
++ repair_timing -verbose -hold -setup_margin 0.05000000000000000277555756156289135105907917022705078125 -hold_margin 0.1000000000000000055511151231257827021181583404541015625 -max_buffer_percent 50
+[INFO RSZ-0046] Found 266 endpoints with hold violations.
+Iteration | Resized | Buffers | Cloned Gates |   Area   |   WNS   |   TNS   | Endpoint
+--------------------------------------------------------------------------------------
+        0 |       0 |       0 |            0 |    +0.0% |  -0.111 | -10.921 | _2158_/D
+       10 |       0 |      14 |            0 |    +1.0% |  -0.064 | -10.152 | _1925_/D
+       20 |       0 |      34 |            0 |    +2.3% |  -0.063 |  -9.431 | _1911_/D
+       30 |       0 |      54 |            0 |    +3.7% |  -0.061 |  -8.650 | _1929_/D
+       40 |       0 |      76 |            0 |    +5.2% |  -0.058 |  -7.871 | _1940_/D
+       50 |       0 |      94 |            0 |    +6.5% |  -0.056 |  -7.294 | _1989_/D
+       60 |       0 |     113 |            0 |    +7.8% |  -0.055 |  -6.777 | _1985_/D
+       70 |       0 |     131 |            0 |    +9.0% |  -0.054 |  -6.218 | _1966_/D
+       80 |       0 |     146 |            0 |   +10.0% |  -0.052 |  -5.745 | _1942_/D
+       90 |       0 |     163 |            0 |   +11.2% |  -0.050 |  -5.210 | _1965_/D
+      100 |       0 |     176 |            0 |   +12.1% |  -0.048 |  -4.771 | _1895_/D
+      110 |       0 |     189 |            0 |   +13.0% |  -0.046 |  -4.308 | _2032_/D
+      120 |       0 |     201 |            0 |   +13.8% |  -0.045 |  -3.920 | _2104_/D
+      130 |       0 |     214 |            0 |   +14.7% |  -0.044 |  -3.498 | _2093_/D
+      140 |       0 |     224 |            0 |   +15.4% |  -0.043 |  -3.079 | _2030_/D
+      150 |       0 |     239 |            0 |   +16.4% |  -0.041 |  -2.737 | _2078_/D
+      160 |       0 |     253 |            0 |   +17.4% |  -0.040 |  -2.396 | _1997_/D
+      170 |       0 |     269 |            0 |   +18.5% |  -0.038 |  -1.988 | _2031_/D
+      180 |       0 |     285 |            0 |   +19.6% |  -0.036 |  -1.656 | _2137_/D
+      190 |       0 |     301 |            0 |   +20.7% |  -0.034 |  -1.310 | _2004_/D
+      200 |       0 |     317 |            0 |   +21.8% |  -0.031 |  -1.000 | _2005_/D
+      210 |       0 |     334 |            0 |   +22.9% |  -0.028 |  -0.671 | _2144_/D
+      220 |       0 |     352 |            0 |   +24.2% |  -0.025 |  -0.419 | _2011_/D
+      230 |       0 |     367 |            0 |   +25.2% |  -0.020 |  -0.228 | _2023_/D
+      240 |       0 |     380 |            0 |   +26.1% |  -0.010 |  -0.093 | _2142_/D
+      250 |       0 |     396 |            0 |   +27.2% |  -0.003 |  -0.009 | _2026_/D
+      260 |       0 |     409 |            0 |   +28.1% |   0.021 |   0.000 | _2042_/D
+    final |       0 |     413 |            0 |   +28.4% |   0.101 |   0.000 | _1954_/D
+--------------------------------------------------------------------------------------
+[INFO RSZ-0032] Inserted 413 hold buffers.
++ detailed_placement -max_displacement  500 100 
+Placement Analysis
+---------------------------------
+total displacement       2419.6 u
+average displacement        1.3 u
+max displacement            7.6 u
+original HPWL           45433.4 u
+legalized HPWL          47716.6 u
+delta HPWL                    5 %
+
+[INFO DPL-0020] Mirrored 833 instances
+[INFO DPL-0021] HPWL before           47716.6 u
+[INFO DPL-0022] HPWL after            46089.0 u
+[INFO DPL-0023] HPWL delta               -3.4 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 826 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Buffer                                    1       7.26
+  Clock buffer                             29     792.89
+  Timing Repair Buffer                    621    8253.71
+  Inverter                                365    1986.77
+  Clock inverter                           15     148.78
+  Sequential cell                         270   13226.98
+  Multi-Input combinational cell          583    6098.20
+  Total                                  1884   30514.58
+Writing OpenROAD database to '/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/37-openroad-resizertimingpostcts/characterization_top.odb'…
+Writing netlist to '/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/37-openroad-resizertimingpostcts/characterization_top.nl.v'…
+Writing powered netlist to '/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/37-openroad-resizertimingpostcts/characterization_top.pnl.v'…
+Writing layout to '/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/37-openroad-resizertimingpostcts/characterization_top.def'…
+Writing timing constraints to '/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/37-openroad-resizertimingpostcts/characterization_top.sdc'…

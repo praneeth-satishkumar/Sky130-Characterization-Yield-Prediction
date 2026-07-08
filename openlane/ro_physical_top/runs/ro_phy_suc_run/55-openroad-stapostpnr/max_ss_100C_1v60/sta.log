@@ -1,0 +1,393 @@
++ define_corners max_ss_100C_1v60
+Reading timing models for corner max_ss_100C_1v60…
+Reading cell library for the 'max_ss_100C_1v60' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading top-level netlist at '/foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/52-openroad-fillinsertion/ro_physical_top.nl.v'…
+Linking design 'ro_physical_top' from netlist…
+Warning: /foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/52-openroad-fillinsertion/ro_physical_top.nl.v line 15, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_110.
+Warning: /foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/52-openroad-fillinsertion/ro_physical_top.nl.v line 46, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_27.
+Warning: /foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/52-openroad-fillinsertion/ro_physical_top.nl.v line 1832, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_TAPCELL_ROW_0_56.
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+Warning: base.sdc line 15, port 'null' not found.
+[INFO] Using clock null…
+[INFO] Setting output delay to: 2
+[INFO] Setting input delay to: 2
+Warning: base.sdc line 32, port 'null' not found.
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+Warning: base.sdc line 69, transition time can not be specified for virtual clocks.
+[INFO] Setting timing derate to: 5%
+Warning: base.sdc line 79, virtual clock null can not be propagated.
+Reading top-level design parasitics for the 'max_ss_100C_1v60' corner at '/foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/54-openroad-rcx/max/ro_physical_top.max.spef'…
+%OL_CREATE_REPORT min.rpt
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.003408    0.020807    0.011196    2.011196 v enable (in)
+                                                         enable (net)
+                      0.020807    0.000000    2.011196 v input1/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.003299    0.080360    0.439327    2.450522 v input1/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         net1 (net)
+                      0.080360    0.000236    2.450759 v u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.003031    0.063646    0.095888    2.546647 ^ u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.063646    0.000209    2.546856 ^ u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.003120    0.039076    0.066636    2.613492 v u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.039076    0.000221    2.613714 v u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.003011    0.053144    0.065420    2.679133 ^ u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.053144    0.000207    2.679340 ^ u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.003020    0.037835    0.061091    2.740431 v u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.037836    0.000222    2.740653 v u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.005077    0.076994    0.082769    2.823421 ^ u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.076994    0.000168    2.823590 ^ u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.002546    0.044303    0.169507    2.993097 ^ u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         net2 (net)
+                      0.044303    0.000117    2.993213 ^ output2/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.035716    0.575743    0.815369    3.808582 ^ output2/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         ro_out (net)
+                      0.575743    0.001988    3.810570 ^ ro_out (out)
+                                              3.810570   data arrival time
+
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -3.810570   data arrival time
+---------------------------------------------------------------------------------------------
+                                              5.560570   slack (MET)
+
+
+
+%OL_END_REPORT
+%OL_CREATE_REPORT max.rpt
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 ^ input external delay
+     1    0.003585    0.037495    0.019984    2.019984 ^ enable (in)
+                                                         enable (net)
+                      0.037495    0.000000    2.019984 ^ input1/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.003400    0.081879    0.453898    2.473882 ^ input1/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         net1 (net)
+                      0.081879    0.000245    2.474127 ^ u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.002899    0.069920    0.101043    2.575170 v u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.069920    0.000198    2.575368 v u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.003252    0.056853    0.081397    2.656765 ^ u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.056853    0.000232    2.656997 ^ u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.002879    0.036961    0.061917    2.718915 v u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.036961    0.000196    2.719110 v u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.003152    0.054660    0.065676    2.784786 ^ u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.054660    0.000233    2.785019 ^ u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.004760    0.051352    0.073106    2.858125 v u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.051352    0.000157    2.858282 v u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.002369    0.041848    0.212112    3.070394 v u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         net2 (net)
+                      0.041848    0.000108    3.070502 v output2/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.035716    0.483050    0.767599    3.838101 v output2/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         ro_out (net)
+                      0.483053    0.001988    3.840090 v ro_out (out)
+                                              3.840090   data arrival time
+
+                      0.000000   10.000000   10.000000   clock null (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -3.840090   data arrival time
+---------------------------------------------------------------------------------------------
+                                              3.909910   slack (MET)
+
+
+
+%OL_END_REPORT
+%OL_CREATE_REPORT checks.rpt
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 ^ input external delay
+     1    0.003585    0.037495    0.019984    2.019984 ^ enable (in)
+                                                         enable (net)
+                      0.037495    0.000000    2.019984 ^ input1/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.003400    0.081879    0.453898    2.473882 ^ input1/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         net1 (net)
+                      0.081879    0.000245    2.474127 ^ u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.002899    0.069920    0.101043    2.575170 v u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.069920    0.000198    2.575368 v u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.003252    0.056853    0.081397    2.656765 ^ u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.056853    0.000232    2.656997 ^ u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.002879    0.036961    0.061917    2.718915 v u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.036961    0.000196    2.719110 v u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.003152    0.054660    0.065676    2.784786 ^ u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.054660    0.000233    2.785019 ^ u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.004760    0.051352    0.073106    2.858125 v u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.051352    0.000157    2.858282 v u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.002369    0.041848    0.212112    3.070394 v u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         net2 (net)
+                      0.041848    0.000108    3.070502 v output2/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.035716    0.483050    0.767599    3.838101 v output2/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         ro_out (net)
+                      0.483053    0.001988    3.840090 v ro_out (out)
+                                              3.840090   data arrival time
+
+                      0.000000   10.000000   10.000000   clock null (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -3.840090   data arrival time
+---------------------------------------------------------------------------------------------
+                                              3.909910   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 0 unannotated drivers.
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+%OL_METRIC_I design__max_slew_violation__count__corner:max_ss_100C_1v60 0
+max fanout violation count 0
+%OL_METRIC_I design__max_fanout_violation__count__corner:max_ss_100C_1v60 0
+max cap violation count 0
+%OL_METRIC_I design__max_cap_violation__count__corner:max_ss_100C_1v60 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There is 1 combinational loop in the design.
+  u_nand/Y
+  u_inv0/A
+  u_inv0/Y
+  u_inv1/A
+  u_inv1/Y
+  u_inv2/A
+  u_inv2/Y
+  u_inv3/A
+  u_inv3/Y
+  u_nand/B
+  | loop cut point
+  u_nand/Y
+  --------------------------------
+%OL_END_REPORT
+%OL_CREATE_REPORT power.rpt
+
+===========================================================================
+ report_power
+============================================================================
+======================= max_ss_100C_1v60 Corner ===================================
+
+Group                    Internal    Switching      Leakage        Total
+                            Power        Power        Power        Power (Watts)
+------------------------------------------------------------------------
+Sequential           0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Combinational        2.237625e-07 4.351877e-08 3.420811e-08 3.014894e-07  98.3%
+Clock                0.000000e+00 0.000000e+00 5.226029e-09 5.226029e-09   1.7%
+Macro                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Pad                  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+------------------------------------------------------------------------
+Total                2.237625e-07 4.351877e-08 3.943414e-08 3.067154e-07 100.0%
+                            73.0%        14.2%        12.9%
+%OL_METRIC_F power__internal__total 2.237624698864238e-7
+%OL_METRIC_F power__switching__total 4.351877436192808e-8
+%OL_METRIC_F power__leakage__total 3.943414483842389e-8
+%OL_METRIC_F power__total 3.0671540685034415e-7
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.min.rpt
+
+===========================================================================
+Clock Skew (Hold)
+============================================================================
+%OL_METRIC_F clock__skew__worst_hold__corner:max_ss_100C_1v60 0.0
+======================= max_ss_100C_1v60 Corner ===================================
+
+Clock null
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.max.rpt
+
+===========================================================================
+Clock Skew (Setup)
+============================================================================
+%OL_METRIC_F clock__skew__worst_setup__corner:max_ss_100C_1v60 0.0
+======================= max_ss_100C_1v60 Corner ===================================
+
+Clock null
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.min.rpt
+
+===========================================================================
+Worst Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__ws__corner:max_ss_100C_1v60 5.560569939667149
+max_ss_100C_1v60: 5.560569939667149
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.max.rpt
+
+===========================================================================
+Worst Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__ws__corner:max_ss_100C_1v60 3.9099102839850657
+max_ss_100C_1v60: 3.9099102839850657
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.min.rpt
+
+===========================================================================
+Total Negative Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__tns__corner:max_ss_100C_1v60 0.0
+max_ss_100C_1v60: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.max.rpt
+
+===========================================================================
+Total Negative Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__tns__corner:max_ss_100C_1v60 0.0
+max_ss_100C_1v60: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.min.rpt
+
+===========================================================================
+Worst Negative Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__wns__corner:max_ss_100C_1v60 0
+max_ss_100C_1v60: 0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.max.rpt
+
+===========================================================================
+Worst Negative Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__wns__corner:max_ss_100C_1v60 0.0
+max_ss_100C_1v60: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT violator_list.rpt
+
+===========================================================================
+Violator List
+============================================================================
+%OL_METRIC_I timing__hold_vio__count__corner:max_ss_100C_1v60 0
+%OL_METRIC_F timing__hold_r2r__ws__corner:max_ss_100C_1v60 inf
+%OL_METRIC_I timing__hold_r2r_vio__count__corner:max_ss_100C_1v60 0
+%OL_METRIC_I timing__setup_vio__count__corner:max_ss_100C_1v60 0
+%OL_METRIC_F timing__setup_r2r__ws__corner:max_ss_100C_1v60 inf
+%OL_METRIC_I timing__setup_r2r_vio__count__corner:max_ss_100C_1v60 0
+%OL_END_REPORT
+%OL_CREATE_REPORT unpropagated.rpt
+null
+%OL_END_REPORT
+%OL_CREATE_REPORT clock.rpt
+Clock: null
+Sources: 
+Generated: no
+Virtual: yes
+Propagated: no
+Period: 10.000000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+null                 10.000000    0.000000  5.000000
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock null
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+null period_min = 0.00 fmax = inf
+%OL_END_REPORT
+Writing SDF files for all corners…
+Removing Clock latencies before writing libs…
+Writing timing models for all corners…
+Writing timing models for the max_ss_100C_1v60 corner to /foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/55-openroad-stapostpnr/max_ss_100C_1v60/ro_physical_top__max_ss_100C_1v60.lib…
