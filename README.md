@@ -179,11 +179,11 @@ The old simulated input-clock RO counter data was removed from the final results
 
 ### TT RO SPICE Waveform
 
-![TT RO SPICE waveform](final_deliverables/screenshots/raw_screenshots/ro_spice_tt_waveform.png)
+![TT RO SPICE waveform](final_deliverables/screenshots/raw_screenshots/ro_prelayout_spice_tt_waveform.png)
 
 ### TT Post-layout Extracted RO Waveform
 
-![TT post-layout extracted RO waveform](final_deliverables/screenshots/raw_screenshots/ro_postlayout_extracted_waveform.png)
+![TT post-layout extracted RO waveform](final_deliverables/screenshots/raw_screenshots/ro_postlayout_extracted_waveform_measurement.png)
 
 ---
 
