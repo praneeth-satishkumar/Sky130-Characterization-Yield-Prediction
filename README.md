@@ -201,7 +201,7 @@ A physical delay-chain layout was created and verified. The delay chain was simu
 
 ### Delay-Chain SPICE Waveform
 
-![Delay-chain SPICE waveform](final_deliverables/screenshots/raw_screenshots/delay_chain_postlayout_spice_waveform_measurements.png)
+![Delay-chain SPICE waveform](final_deliverables/screenshots/raw_screenshots/delay_chain_postlayout_spice_waveform_measurement.png)
 
 ---
 
