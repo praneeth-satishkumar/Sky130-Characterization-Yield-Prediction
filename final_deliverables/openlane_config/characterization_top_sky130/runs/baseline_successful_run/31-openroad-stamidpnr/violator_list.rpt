@@ -1,0 +1,23 @@
+
+===========================================================================
+Violator List
+============================================================================
+[hold reg-reg] _1969_/Q -> _1970_/D : -0.146074
+[hold reg-reg] _1898_/Q -> _2137_/D : -0.144982
+[hold reg-reg] _2153_/Q -> _2157_/D : -0.087583
+[hold reg-reg] _2155_/Q -> _2158_/D : -0.082301
+[hold reg-reg] _2157_/Q -> _2159_/D : -0.080309
+[hold reg-reg] _2158_/Q -> _2161_/D : -0.080069
+[hold reg-reg] _1947_/Q -> _2138_/D : -0.061850
+[hold reg-reg] _1931_/Q -> _2120_/D : -0.043597
+[hold reg-reg] _1948_/Q -> _2139_/D : -0.028291
+[hold reg-reg] _1934_/Q -> _2123_/D : -0.024938
+[hold reg-reg] _1957_/Q -> _1958_/D : -0.024322
+[hold reg-reg] _2155_/Q -> _2150_/D : -0.012818
+[hold reg-reg] _1911_/Q -> _2100_/D : -0.001272
+Writing metric timing__hold_vio__count__corner:nom_typ_1p20V_25C: 13
+Writing metric timing__hold_r2r__ws__corner:nom_typ_1p20V_25C: -0.146074
+Writing metric timing__hold_r2r_vio__count__corner:nom_typ_1p20V_25C: 13
+Writing metric timing__setup_vio__count__corner:nom_typ_1p20V_25C: 0
+Writing metric timing__setup_r2r__ws__corner:nom_typ_1p20V_25C: 7.191232
+Writing metric timing__setup_r2r_vio__count__corner:nom_typ_1p20V_25C: 0

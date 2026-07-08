@@ -1,0 +1,62 @@
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Startpoint: in (input port clocked by null)
+Endpoint: out (output port clocked by null)
+Path Group: null
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.001625    0.014323    0.005500    2.005500 v in (in)
+                                                         in (net)
+                      0.014323    0.000000    2.005500 v u0/A (sky130_fd_sc_hd__buf_2)
+     1    0.001625    0.038827    0.190786    2.196286 v u0/X (sky130_fd_sc_hd__buf_2)
+                                                         n0 (net)
+                      0.038827    0.000000    2.196286 v u1/A (sky130_fd_sc_hd__buf_2)
+     1    0.001625    0.039255    0.201674    2.397960 v u1/X (sky130_fd_sc_hd__buf_2)
+                                                         n1 (net)
+                      0.039255    0.000000    2.397960 v u2/A (sky130_fd_sc_hd__buf_2)
+     1    0.001625    0.039255    0.201870    2.599829 v u2/X (sky130_fd_sc_hd__buf_2)
+                                                         n2 (net)
+                      0.039255    0.000000    2.599829 v u3/A (sky130_fd_sc_hd__buf_2)
+     1    0.001625    0.039255    0.201870    2.801699 v u3/X (sky130_fd_sc_hd__buf_2)
+                                                         n3 (net)
+                      0.039255    0.000000    2.801699 v u4/A (sky130_fd_sc_hd__buf_2)
+     1    0.001625    0.039255    0.201870    3.003569 v u4/X (sky130_fd_sc_hd__buf_2)
+                                                         n4 (net)
+                      0.039255    0.000000    3.003569 v u5/A (sky130_fd_sc_hd__buf_2)
+     1    0.001625    0.039255    0.201870    3.205438 v u5/X (sky130_fd_sc_hd__buf_2)
+                                                         n5 (net)
+                      0.039255    0.000000    3.205438 v u6/A (sky130_fd_sc_hd__buf_2)
+     1    0.001625    0.039255    0.201870    3.407308 v u6/X (sky130_fd_sc_hd__buf_2)
+                                                         n6 (net)
+                      0.039255    0.000000    3.407308 v u7/A (sky130_fd_sc_hd__buf_2)
+     1    0.001625    0.039255    0.201870    3.609178 v u7/X (sky130_fd_sc_hd__buf_2)
+                                                         n7 (net)
+                      0.039255    0.000000    3.609178 v u8/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.165562    0.328300    3.937478 v u8/X (sky130_fd_sc_hd__buf_2)
+                                                         out (net)
+                      0.165562    0.000000    3.937478 v out (out)
+                                              3.937478   data arrival time
+
+                      0.000000   10.000000   10.000000   clock null (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -3.937478   data arrival time
+---------------------------------------------------------------------------------------------
+                                              3.812522   slack (MET)
+
+
+

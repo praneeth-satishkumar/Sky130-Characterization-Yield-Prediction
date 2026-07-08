@@ -1,0 +1,200 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_slow_1p08V_125C Corner ===================================
+
+Startpoint: rst (input port clocked by clk)
+Endpoint: _1969_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  2.000000    2.000000 v input external delay
+     1    0.003019    0.027567    0.003476    2.003476 v rst (in)
+                                                         rst (net)
+                      0.027567    0.000000    2.003476 v input9/A (sg13g2_buf_1)
+     2    0.015707    0.093106    0.141433    2.144909 v input9/X (sg13g2_buf_1)
+                                                         net9 (net)
+                      0.093115    0.000969    2.145878 v fanout208/A (sg13g2_buf_1)
+     6    0.089002    0.458430    0.440274    2.586152 v fanout208/X (sg13g2_buf_1)
+                                                         net208 (net)
+                      0.458804    0.011051    2.597202 v fanout191/A (sg13g2_buf_1)
+    10    0.066054    0.346708    0.461798    3.059001 v fanout191/X (sg13g2_buf_1)
+                                                         net191 (net)
+                      0.346708    0.000100    3.059101 v fanout190/A (sg13g2_buf_1)
+     8    0.040773    0.218690    0.351001    3.410102 v fanout190/X (sg13g2_buf_1)
+                                                         net190 (net)
+                      0.218691    0.000955    3.411057 v fanout189/A (sg13g2_buf_1)
+     4    0.026414    0.146116    0.262840    3.673897 v fanout189/X (sg13g2_buf_1)
+                                                         net189 (net)
+                      0.146116    0.000107    3.674004 v fanout188/A (sg13g2_buf_1)
+     8    0.035637    0.191768    0.271328    3.945332 v fanout188/X (sg13g2_buf_1)
+                                                         net188 (net)
+                      0.191804    0.002609    3.947941 v _1796_/A (sg13g2_inv_1)
+     1    0.006905    0.084128    0.113237    4.061178 ^ _1796_/Y (sg13g2_inv_1)
+                                                         _0183_ (net)
+                      0.084129    0.000504    4.061683 ^ _1969_/RESET_B (sg13g2_dfrbpq_1)
+                                              4.061683   data arrival time
+
+                                 10.000000   10.000000   clock clk (rise edge)
+                                  0.000000   10.000000   clock source latency
+     1    0.038910    0.083270    0.052113   10.052114 ^ clk (in)
+                                                         clk (net)
+                      0.083685    0.000000   10.052114 ^ clkbuf_0_clk/A (sg13g2_buf_16)
+     4    0.099097    0.058772    0.147897   10.200010 ^ clkbuf_0_clk/X (sg13g2_buf_16)
+                                                         clknet_0_clk (net)
+                      0.059250    0.003951   10.203960 ^ clkbuf_2_2__f_clk/A (sg13g2_buf_16)
+     6    0.082990    0.052154    0.129055   10.333015 ^ clkbuf_2_2__f_clk/X (sg13g2_buf_16)
+                                                         clknet_2_2__leaf_clk (net)
+                      0.052956    0.004767   10.337783 ^ clkbuf_leaf_7_clk/A (sg13g2_buf_8)
+    14    0.061068    0.066009    0.138490   10.476273 ^ clkbuf_leaf_7_clk/X (sg13g2_buf_8)
+                                                         clknet_leaf_7_clk (net)
+                      0.066186    0.002305   10.478578 ^ _1969_/CLK (sg13g2_dfrbpq_1)
+                                 -0.250000   10.228578   clock uncertainty
+                                  0.000000   10.228578   clock reconvergence pessimism
+                                 -0.219309   10.009269   library recovery time
+                                             10.009269   data required time
+---------------------------------------------------------------------------------------------
+                                             10.009269   data required time
+                                             -4.061683   data arrival time
+---------------------------------------------------------------------------------------------
+                                              5.947586   slack (MET)
+
+
+Startpoint: ro_clk_2 (input port clocked by clk)
+Endpoint: _2059_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  2.000000    2.000000 ^ input external delay
+     1    0.003167    0.033028    0.004137    2.004137 ^ ro_clk_2 (in)
+                                                         ro_clk_2 (net)
+                      0.033028    0.000000    2.004137 ^ input8/A (sg13g2_buf_1)
+     2    0.028620    0.189162    0.205262    2.209399 ^ input8/X (sg13g2_buf_1)
+                                                         net8 (net)
+                      0.189258    0.003517    2.212916 ^ _0989_/B (sg13g2_nand2b_1)
+     4    0.017608    0.198230    0.245778    2.458694 v _0989_/Y (sg13g2_nand2b_1)
+                                                         _0839_ (net)
+                      0.198242    0.001617    2.460311 v _1000_/C (sg13g2_nor3_1)
+     6    0.031563    0.648712    0.581841    3.042152 ^ _1000_/Y (sg13g2_nor3_1)
+                                                         _0849_ (net)
+                      0.648722    0.002170    3.044322 ^ _1001_/A2 (sg13g2_a21oi_1)
+     1    0.002309    0.131245    0.242194    3.286516 v _1001_/Y (sg13g2_a21oi_1)
+                                                         _0850_ (net)
+                      0.131245    0.000083    3.286599 v hold555/A (sg13g2_dlygate4sd3_1)
+     1    0.003533    0.061667    0.646811    3.933410 v hold555/X (sg13g2_dlygate4sd3_1)
+                                                         net555 (net)
+                      0.061667    0.000140    3.933551 v _1002_/C (sg13g2_nor3_1)
+     1    0.002005    0.113576    0.114028    4.047579 ^ _1002_/Y (sg13g2_nor3_1)
+                                                         _0529_ (net)
+                      0.113576    0.000077    4.047656 ^ hold556/A (sg13g2_dlygate4sd3_1)
+     1    0.003157    0.057764    0.604471    4.652127 ^ hold556/X (sg13g2_dlygate4sd3_1)
+                                                         net556 (net)
+                      0.057764    0.000197    4.652324 ^ _2059_/D (sg13g2_dfrbpq_1)
+                                              4.652324   data arrival time
+
+                                 10.000000   10.000000   clock clk (rise edge)
+                                  0.000000   10.000000   clock source latency
+     1    0.038910    0.083270    0.052113   10.052114 ^ clk (in)
+                                                         clk (net)
+                      0.083685    0.000000   10.052114 ^ clkbuf_0_clk/A (sg13g2_buf_16)
+     4    0.099097    0.058772    0.147897   10.200010 ^ clkbuf_0_clk/X (sg13g2_buf_16)
+                                                         clknet_0_clk (net)
+                      0.059785    0.005995   10.206005 ^ clkbuf_2_1__f_clk/A (sg13g2_buf_16)
+     6    0.092472    0.055492    0.132022   10.338027 ^ clkbuf_2_1__f_clk/X (sg13g2_buf_16)
+                                                         clknet_2_1__leaf_clk (net)
+                      0.056449    0.005300   10.343327 ^ clkbuf_leaf_0_clk/A (sg13g2_buf_8)
+    14    0.067153    0.070671    0.143798   10.487124 ^ clkbuf_leaf_0_clk/X (sg13g2_buf_8)
+                                                         clknet_leaf_0_clk (net)
+                      0.070835    0.002318   10.489443 ^ _2059_/CLK (sg13g2_dfrbpq_1)
+                                 -0.250000   10.239443   clock uncertainty
+                                  0.000000   10.239443   clock reconvergence pessimism
+                                 -0.196274   10.043168   library setup time
+                                             10.043168   data required time
+---------------------------------------------------------------------------------------------
+                                             10.043168   data required time
+                                             -4.652324   data arrival time
+---------------------------------------------------------------------------------------------
+                                              5.390844   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_slow_1p08V_125C Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_slow_1p08V_125C Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+clkbuf_leaf_12_clk/X                      8     16     -8 (VIOLATED)
+clkbuf_leaf_17_clk/X                      8     16     -8 (VIOLATED)
+clkbuf_leaf_10_clk/X                      8     15     -7 (VIOLATED)
+clkbuf_leaf_11_clk/X                      8     15     -7 (VIOLATED)
+clkbuf_leaf_16_clk/X                      8     15     -7 (VIOLATED)
+clkbuf_leaf_0_clk/X                       8     14     -6 (VIOLATED)
+clkbuf_leaf_14_clk/X                      8     14     -6 (VIOLATED)
+clkbuf_leaf_15_clk/X                      8     14     -6 (VIOLATED)
+clkbuf_leaf_19_clk/X                      8     14     -6 (VIOLATED)
+clkbuf_leaf_20_clk/X                      8     14     -6 (VIOLATED)
+clkbuf_leaf_21_clk/X                      8     14     -6 (VIOLATED)
+clkbuf_leaf_7_clk/X                       8     14     -6 (VIOLATED)
+clkbuf_leaf_8_clk/X                       8     14     -6 (VIOLATED)
+clkbuf_leaf_13_clk/X                      8     13     -5 (VIOLATED)
+clkbuf_leaf_9_clk/X                       8     13     -5 (VIOLATED)
+clkbuf_leaf_2_clk/X                       8     12     -4 (VIOLATED)
+clkbuf_leaf_4_clk/X                       8     12     -4 (VIOLATED)
+clkbuf_leaf_1_clk/X                       8     11     -3 (VIOLATED)
+fanout191/X                               8     10     -2 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 16 unannotated drivers.
+ clkload0/X
+ clkload1/Y
+ clkload10/Y
+ clkload11/Y
+ clkload12/Y
+ clkload13/Y
+ clkload14/Y
+ clkload15/Y
+ clkload2/Y
+ clkload3/Y
+ clkload4/Y
+ clkload5/Y
+ clkload6/Y
+ clkload7/Y
+ clkload8/Y
+ clkload9/Y
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 19
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================

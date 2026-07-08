@@ -1,0 +1,383 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading OpenROAD database at '/foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/42-openroad-repairantennas/1-openroad-diodeinsertion/ro_physical_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[WARNING STA-0366] port 'null' not found.
+[INFO] Using clock null…
+[INFO] Setting output delay to: 2
+[INFO] Setting input delay to: 2
+[WARNING STA-0366] port 'null' not found.
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[WARNING STA-0419] transition time can not be specified for virtual clocks.
+[INFO] Setting timing derate to: 5%
+[WARNING STA-0450] virtual clock null can not be propagated.
+%OL_CREATE_REPORT min.rpt
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 ^ input external delay
+     1    0.003397    0.022318    0.012417    2.012417 ^ enable (in)
+                                                         enable (net)
+                      0.022318    0.000000    2.012417 ^ input1/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.003323    0.048662    0.238744    2.251161 ^ input1/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         net1 (net)
+                      0.048662    0.000107    2.251269 ^ u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.003222    0.033248    0.047567    2.298836 v u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.033248    0.000105    2.298941 v u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.004119    0.042665    0.051343    2.350284 ^ u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.042665    0.000155    2.350439 ^ u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.004093    0.025245    0.038931    2.389370 v u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.025245    0.000148    2.389518 v u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.004119    0.042433    0.047983    2.437501 ^ u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.042448    0.000153    2.437654 ^ u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.005421    0.030643    0.043399    2.481053 v u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.030643    0.000121    2.481174 v u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.002768    0.023318    0.107267    2.588441 v u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         net2 (net)
+                      0.023318    0.000062    2.588503 v output2/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.035192    0.261812    0.409537    2.998040 v output2/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         ro_out (net)
+                      0.261814    0.001163    2.999203 v ro_out (out)
+                                              2.999203   data arrival time
+
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -2.999203   data arrival time
+---------------------------------------------------------------------------------------------
+                                              4.749203   slack (MET)
+
+
+
+%OL_END_REPORT
+%OL_CREATE_REPORT max.rpt
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.003172    0.009496    0.005070    2.005069 v enable (in)
+                                                         enable (net)
+                      0.009496    0.000000    2.005069 v input1/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.003202    0.042515    0.229208    2.234277 v input1/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         net1 (net)
+                      0.042515    0.000103    2.234380 v u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.003398    0.041956    0.056333    2.290714 ^ u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.041956    0.000112    2.290826 ^ u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.003943    0.024560    0.038152    2.328978 v u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.024560    0.000147    2.329125 v u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.004269    0.043624    0.048561    2.377686 ^ u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.043625    0.000156    2.377842 ^ u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.003943    0.024755    0.038772    2.416615 v u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.024755    0.000145    2.416759 v u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.005789    0.055776    0.057406    2.474165 ^ u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.055777    0.000130    2.474296 ^ u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.002993    0.027569    0.095420    2.569716 ^ u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         net2 (net)
+                      0.027569    0.000068    2.569784 ^ output2/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.035192    0.355566    0.459111    3.028895 ^ output2/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         ro_out (net)
+                      0.355566    0.001163    3.030058 ^ ro_out (out)
+                                              3.030058   data arrival time
+
+                      0.000000   10.000000   10.000000   clock null (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -3.030058   data arrival time
+---------------------------------------------------------------------------------------------
+                                              4.719942   slack (MET)
+
+
+
+%OL_END_REPORT
+%OL_CREATE_REPORT checks.rpt
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.003172    0.009496    0.005070    2.005069 v enable (in)
+                                                         enable (net)
+                      0.009496    0.000000    2.005069 v input1/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.003202    0.042515    0.229208    2.234277 v input1/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         net1 (net)
+                      0.042515    0.000103    2.234380 v u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.003398    0.041956    0.056333    2.290714 ^ u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.041956    0.000112    2.290826 ^ u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.003943    0.024560    0.038152    2.328978 v u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.024560    0.000147    2.329125 v u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.004269    0.043624    0.048561    2.377686 ^ u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.043625    0.000156    2.377842 ^ u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.003943    0.024755    0.038772    2.416615 v u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.024755    0.000145    2.416759 v u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.005789    0.055776    0.057406    2.474165 ^ u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.055777    0.000130    2.474296 ^ u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.002993    0.027569    0.095420    2.569716 ^ u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         net2 (net)
+                      0.027569    0.000068    2.569784 ^ output2/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.035192    0.355566    0.459111    3.028895 ^ output2/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         ro_out (net)
+                      0.355566    0.001163    3.030058 ^ ro_out (out)
+                                              3.030058   data arrival time
+
+                      0.000000   10.000000   10.000000   clock null (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -3.030058   data arrival time
+---------------------------------------------------------------------------------------------
+                                              4.719942   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 0 unannotated drivers.
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+Writing metric design__max_slew_violation__count__corner:nom_tt_025C_1v80: 0
+max fanout violation count 0
+Writing metric design__max_fanout_violation__count__corner:nom_tt_025C_1v80: 0
+max cap violation count 0
+Writing metric design__max_cap_violation__count__corner:nom_tt_025C_1v80: 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There is 1 combinational loop in the design.
+  u_nand/Y
+  u_inv0/A
+  u_inv0/Y
+  u_inv1/A
+  u_inv1/Y
+  u_inv2/A
+  u_inv2/Y
+  u_inv3/A
+  u_inv3/Y
+  u_nand/B
+  | loop cut point
+  u_nand/Y
+  --------------------------------
+%OL_END_REPORT
+%OL_CREATE_REPORT power.rpt
+
+===========================================================================
+ report_power
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Group                    Internal    Switching      Leakage        Total
+                            Power        Power        Power        Power (Watts)
+------------------------------------------------------------------------
+Sequential           0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Combinational        2.755200e-07 5.383292e-08 3.627460e-11 3.293892e-07  99.9%
+Clock                0.000000e+00 0.000000e+00 1.814421e-10 1.814421e-10   0.1%
+Macro                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Pad                  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+------------------------------------------------------------------------
+Total                2.755200e-07 5.383292e-08 2.177166e-10 3.295706e-07 100.0%
+                            83.6%        16.3%         0.1%
+Writing metric power__internal__total: 2.7551996595320816e-7
+Writing metric power__switching__total: 5.3832923896379725e-8
+Writing metric power__leakage__total: 2.1771662250813506e-10
+Writing metric power__total: 3.295706108019658e-7
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.min.rpt
+
+===========================================================================
+Clock Skew (Hold)
+============================================================================
+Writing metric clock__skew__worst_hold__corner:nom_tt_025C_1v80: 0.0
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Clock null
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.max.rpt
+
+===========================================================================
+Clock Skew (Setup)
+============================================================================
+Writing metric clock__skew__worst_setup__corner:nom_tt_025C_1v80: 0.0
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Clock null
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.min.rpt
+
+===========================================================================
+Worst Slack (Hold)
+============================================================================
+Writing metric timing__hold__ws__corner:nom_tt_025C_1v80: 4.749202943112504
+nom_tt_025C_1v80: 4.749202943112504
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.max.rpt
+
+===========================================================================
+Worst Slack (Setup)
+============================================================================
+Writing metric timing__setup__ws__corner:nom_tt_025C_1v80: 4.719941904247924
+nom_tt_025C_1v80: 4.719941904247924
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.min.rpt
+
+===========================================================================
+Total Negative Slack (Hold)
+============================================================================
+Writing metric timing__hold__tns__corner:nom_tt_025C_1v80: 0.0
+nom_tt_025C_1v80: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.max.rpt
+
+===========================================================================
+Total Negative Slack (Setup)
+============================================================================
+Writing metric timing__setup__tns__corner:nom_tt_025C_1v80: 0.0
+nom_tt_025C_1v80: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.min.rpt
+
+===========================================================================
+Worst Negative Slack (Hold)
+============================================================================
+Writing metric timing__hold__wns__corner:nom_tt_025C_1v80: 0
+nom_tt_025C_1v80: 0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.max.rpt
+
+===========================================================================
+Worst Negative Slack (Setup)
+============================================================================
+Writing metric timing__setup__wns__corner:nom_tt_025C_1v80: 0.0
+nom_tt_025C_1v80: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT violator_list.rpt
+
+===========================================================================
+Violator List
+============================================================================
+Writing metric timing__hold_vio__count__corner:nom_tt_025C_1v80: 0
+Writing metric timing__hold_r2r__ws__corner:nom_tt_025C_1v80: 1e30
+Writing metric timing__hold_r2r_vio__count__corner:nom_tt_025C_1v80: 0
+Writing metric timing__setup_vio__count__corner:nom_tt_025C_1v80: 0
+Writing metric timing__setup_r2r__ws__corner:nom_tt_025C_1v80: 1e30
+Writing metric timing__setup_r2r_vio__count__corner:nom_tt_025C_1v80: 0
+%OL_END_REPORT
+%OL_CREATE_REPORT unpropagated.rpt
+null
+%OL_END_REPORT
+%OL_CREATE_REPORT clock.rpt
+Clock: null
+Sources: 
+Generated: no
+Virtual: yes
+Propagated: no
+Period: 10.000000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+null                 10.000000    0.000000  5.000000
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock null
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+null period_min = 0.00 fmax = inf
+%OL_END_REPORT

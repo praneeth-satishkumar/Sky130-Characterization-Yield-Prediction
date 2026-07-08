@@ -1,0 +1,185 @@
+{
+  "creator": "Yosys 0.65 (git sha1 b85cad634, g++ 13.3.0-6ubuntu2~24.04.1 -fPIC -O3)",
+  "modules": {
+    "ro_physical_top": {
+      "attributes": {
+        "hdlname": "ro_physical_top",
+        "top": "00000000000000000000000000000001",
+        "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:1.1-42.10"
+      },
+      "ports": {
+        "enable": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "ro_out": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "u_buf": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:37.32-40.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "X": [ 3 ]
+          }
+        },
+        "u_inv0": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__inv_1",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:18.32-21.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 6 ]
+          }
+        },
+        "u_inv1": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__inv_1",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:23.32-26.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "Y": [ 7 ]
+          }
+        },
+        "u_inv2": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__inv_1",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:27.32-30.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "Y": [ 8 ]
+          }
+        },
+        "u_inv3": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__inv_1",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:32.32-35.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "Y": [ 4 ]
+          }
+        },
+        "u_nand": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__nand2_1",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:12.27-16.3"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 4 ],
+            "Y": [ 5 ]
+          }
+        }
+      },
+      "netnames": {
+        "enable": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:2.13-2.19"
+          }
+        },
+        "n0": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:6.7-6.9"
+          }
+        },
+        "n1": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:7.7-7.9"
+          }
+        },
+        "n2": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:8.7-8.9"
+          }
+        },
+        "n3": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:9.7-9.9"
+          }
+        },
+        "n4": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:10.7-10.9"
+          }
+        },
+        "ro_out": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/ro_physical_top.v:3.14-3.20"
+          }
+        }
+      }
+    }
+  }
+}

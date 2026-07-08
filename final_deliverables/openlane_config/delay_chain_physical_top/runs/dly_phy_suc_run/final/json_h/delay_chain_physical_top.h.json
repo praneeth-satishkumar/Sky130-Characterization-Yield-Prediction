@@ -1,0 +1,258 @@
+{
+  "creator": "Yosys 0.65 (git sha1 b85cad634, g++ 13.3.0-6ubuntu2~24.04.1 -fPIC -O3)",
+  "modules": {
+    "delay_chain_physical_top": {
+      "attributes": {
+        "hdlname": "delay_chain_physical_top",
+        "top": "00000000000000000000000000000001",
+        "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:1.1-25.10"
+      },
+      "ports": {
+        "in": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "out": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "u0": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:15.25-15.44"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "X": [ 4 ]
+          }
+        },
+        "u1": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:16.32-16.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "X": [ 5 ]
+          }
+        },
+        "u2": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:17.32-17.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "X": [ 6 ]
+          }
+        },
+        "u3": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:18.32-18.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "X": [ 7 ]
+          }
+        },
+        "u4": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:19.32-19.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "X": [ 8 ]
+          }
+        },
+        "u5": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:20.32-20.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "X": [ 9 ]
+          }
+        },
+        "u6": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:21.32-21.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 9 ],
+            "X": [ 10 ]
+          }
+        },
+        "u7": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:22.32-22.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "X": [ 11 ]
+          }
+        },
+        "u8": {
+          "hide_name": 0,
+          "type": "sky130_fd_sc_hd__buf_2",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:23.25-23.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "X": "output"
+          },
+          "connections": {
+            "A": [ 11 ],
+            "X": [ 3 ]
+          }
+        }
+      },
+      "netnames": {
+        "in": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:2.13-2.15"
+          }
+        },
+        "n0": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:6.7-6.9"
+          }
+        },
+        "n1": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:7.7-7.9"
+          }
+        },
+        "n2": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:8.14-8.16"
+          }
+        },
+        "n3": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:9.14-9.16"
+          }
+        },
+        "n4": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:10.14-10.16"
+          }
+        },
+        "n5": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:11.14-11.16"
+          }
+        },
+        "n6": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:12.14-12.16"
+          }
+        },
+        "n7": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:13.14-13.16"
+          }
+        },
+        "out": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:3.14-3.17"
+          }
+        }
+      }
+    }
+  }
+}

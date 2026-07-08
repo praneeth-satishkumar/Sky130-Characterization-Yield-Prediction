@@ -1,0 +1,6 @@
+Category,Passing Cases,Total Cases,Estimated Pass Rate (%)
+Overall STA sweep,15,19,78.9
+Physical RO SPICE sweep,3,3,100.0
+Post-layout extracted RO,1,1,100.0
+Physical delay-chain SPICE,2,2,100.0
+Physical verification,4,4,100.0

@@ -1,0 +1,76 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO delay_chain_physical_top
+  CLASS BLOCK ;
+  FOREIGN delay_chain_physical_top ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 100.000 BY 100.000 ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 24.340 10.640 25.940 87.280 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 30.030 94.300 31.630 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 21.040 10.640 22.640 87.280 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.520 26.730 94.300 28.330 ;
+    END
+  END VPWR
+  PIN in
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.159000 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 47.640 0.600 48.240 ;
+    END
+  END in
+  PIN out
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.702900 ;
+    PORT
+      LAYER met3 ;
+        RECT 99.400 50.360 100.000 50.960 ;
+    END
+  END out
+  OBS
+      LAYER nwell ;
+        RECT 5.330 10.795 94.490 87.125 ;
+      LAYER li1 ;
+        RECT 5.520 10.795 94.300 87.125 ;
+      LAYER met1 ;
+        RECT 5.520 10.640 94.300 87.280 ;
+      LAYER met2 ;
+        RECT 21.070 10.695 92.830 87.225 ;
+      LAYER met3 ;
+        RECT 0.600 51.360 99.400 87.205 ;
+        RECT 0.600 49.960 99.000 51.360 ;
+        RECT 0.600 48.640 99.400 49.960 ;
+        RECT 1.000 47.240 99.400 48.640 ;
+        RECT 0.600 10.715 99.400 47.240 ;
+      LAYER met4 ;
+        RECT 19.190 45.310 20.640 48.105 ;
+        RECT 23.040 45.310 23.940 48.105 ;
+        RECT 26.340 45.310 28.650 48.105 ;
+      LAYER met5 ;
+        RECT 18.980 45.100 28.860 46.700 ;
+  END
+END delay_chain_physical_top
+END LIBRARY
+

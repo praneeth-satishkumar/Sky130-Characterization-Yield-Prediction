@@ -1,0 +1,53 @@
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Startpoint: enable (input port clocked by null)
+Endpoint: ro_out (output port clocked by null)
+Path Group: null
+Path Type: min
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.002266    0.016934    0.007526    2.007526 v enable (in)
+                                                         enable (net)
+                      0.016934    0.000000    2.007526 v u_nand/A (sky130_fd_sc_hd__nand2_1)
+     1    0.002306    0.055132    0.060382    2.067908 ^ u_nand/Y (sky130_fd_sc_hd__nand2_1)
+                                                         n0 (net)
+                      0.055132    0.000000    2.067908 ^ u_inv0/A (sky130_fd_sc_hd__inv_1)
+     1    0.002174    0.032709    0.056597    2.124505 v u_inv0/Y (sky130_fd_sc_hd__inv_1)
+                                                         n1 (net)
+                      0.032709    0.000000    2.124505 v u_inv1/A (sky130_fd_sc_hd__inv_1)
+     1    0.002306    0.046361    0.056491    2.180995 ^ u_inv1/Y (sky130_fd_sc_hd__inv_1)
+                                                         n2 (net)
+                      0.046361    0.000000    2.180995 ^ u_inv2/A (sky130_fd_sc_hd__inv_1)
+     1    0.002174    0.032114    0.052525    2.233520 v u_inv2/Y (sky130_fd_sc_hd__inv_1)
+                                                         n3 (net)
+                      0.032114    0.000000    2.233520 v u_inv3/A (sky130_fd_sc_hd__inv_1)
+     2    0.004174    0.068767    0.072494    2.306014 ^ u_inv3/Y (sky130_fd_sc_hd__inv_1)
+                                                         n4 (net)
+                      0.068767    0.000000    2.306014 ^ u_buf/A (sky130_fd_sc_hd__buf_2)
+     1    0.033442    0.269939    0.339027    2.645041 ^ u_buf/X (sky130_fd_sc_hd__buf_2)
+                                                         ro_out (net)
+                      0.269939    0.000000    2.645041 ^ ro_out (out)
+                                              2.645041   data arrival time
+
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  0.250000    0.250000   clock uncertainty
+                                  0.000000    0.250000   clock reconvergence pessimism
+                                 -2.000000   -1.750000   output external delay
+                                             -1.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             -1.750000   data required time
+                                             -2.645041   data arrival time
+---------------------------------------------------------------------------------------------
+                                              4.395041   slack (MET)
+
+
+

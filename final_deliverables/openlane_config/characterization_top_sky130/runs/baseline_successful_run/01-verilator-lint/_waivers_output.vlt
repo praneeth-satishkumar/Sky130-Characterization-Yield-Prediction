@@ -1,0 +1,223 @@
+// DESCRIPTION: Verilator output: Waivers generated with --waiver-output
+
+`verilator_config
+
+// Below are suggested waivers. You have three options:
+//   1. Fix the reason for the linter warning in the Verilog sources
+//   2. Keep the waiver permanently if you are sure it is okay
+//   3. Keep the waiver temporarily to suppress the output
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f77f7f7ac4b742e2a703bd9ce0b9dde5.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule TIMESCALEMOD -file "*/foss/designs/sky130_characterization/openlane/characterization_top/runs/RUN_2026-06-19_09-25-21/tmp/f6506887e74744f3a5b899cdb908e11d.bb.v" -match "Timescale missing on this module as other modules have it (IEEE 1800-2023 3.14.2.3)*"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/foss/designs/sky130_characterization/rtl/characterization_top.v" -match "Bits of signal are not used: 'delay_status'[1]*"
+

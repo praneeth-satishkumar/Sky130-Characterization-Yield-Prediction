@@ -1,0 +1,1 @@
+netgen -batch source /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/70-netgen-lvs/lvs_script.lvs

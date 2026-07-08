@@ -1,0 +1,5 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/tmp/f4049ebb41084a51b6911fe78d8f9856.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/foss/designs/sky130_characterization/openlane/ro_physical_top/runs/RUN_2026-07-07_10-36-36/tmp/f4049ebb41084a51b6911fe78d8f9856.bb.v"

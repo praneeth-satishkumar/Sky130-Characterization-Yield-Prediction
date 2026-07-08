@@ -1,0 +1,32 @@
+* Post-layout extracted Sky130 RO simulation - TT corner
+
+.lib "/foss/pdks/ciel/sky130/versions/7b70722e33c03fcb5dabcf4d479fb0822d9251c9/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.include "ro_physical_top.spice"
+
+VDD VPWR 0 1.8
+VSS VGND 0 0
+VEN enable 0 1.8
+
+* Pin order from extracted netlist:
+* .subckt ro_physical_top VGND VPWR enable ro_out
+XRO VGND VPWR enable ro_out ro_physical_top
+
+.ic v(ro_out)=1.8
+
+.tran 5p 20n uic
+
+.measure tran t1 WHEN v(ro_out)=0.9 RISE=8
+.measure tran t2 WHEN v(ro_out)=0.9 RISE=9
+.measure tran period PARAM='t2-t1'
+.measure tran freq PARAM='1/period'
+
+.control
+set filetype=ascii
+set num_threads=1
+run
+plot v(ro_out) xlimit 2n 8n
+print period
+print freq
+.endc
+
+.end

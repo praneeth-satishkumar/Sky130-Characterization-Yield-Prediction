@@ -1,0 +1,13 @@
+{
+        "DESIGN_NAME": "ro_physical_top",
+	"PDK": "sky130A",
+	"STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+        "VERILOG_FILES": [
+                "dir::../../rtl/ro_physical_top.v"
+        ],
+        "CLOCK_PORT": "null",
+        "FP_SIZING": "absolute",
+        "DIE_AREA": "0 0 100 100",
+        "PL_TARGET_DENSITY": 0.30,
+        "FP_CORE_UTIL": 20
+}

@@ -1,0 +1,9 @@
+Category,Count
+STA pass,15
+STA fail,4
+Physical RO pass,3
+Physical RO fail,0
+Delay-chain pass,2
+Delay-chain fail,0
+DRC/LVS pass,4
+DRC/LVS fail,0

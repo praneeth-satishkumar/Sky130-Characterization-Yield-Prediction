@@ -1,0 +1,65 @@
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= nom_tt_025C_1v80 Corner ===================================
+
+Startpoint: in (input port clocked by null)
+Endpoint: out (output port clocked by null)
+Path Group: null
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                      0.000000    0.000000    0.000000   clock null (rise edge)
+                                  0.000000    0.000000   clock network delay (ideal)
+                                  2.000000    2.000000 v input external delay
+     1    0.007005    0.017969    0.011394    2.011394 v in (in)
+                                                         in (net)
+                      0.017971    0.000000    2.011394 v u0/A (sky130_fd_sc_hd__buf_2)
+     1    0.001934    0.021540    0.098928    2.110322 v u0/X (sky130_fd_sc_hd__buf_2)
+                                                         n0 (net)
+                      0.021540    0.000038    2.110359 v u1/A (sky130_fd_sc_hd__buf_2)
+     1    0.001934    0.021540    0.100368    2.210727 v u1/X (sky130_fd_sc_hd__buf_2)
+                                                         n1 (net)
+                      0.021540    0.000038    2.210765 v u2/A (sky130_fd_sc_hd__buf_2)
+     1    0.002015    0.021717    0.100658    2.311423 v u2/X (sky130_fd_sc_hd__buf_2)
+                                                         n2 (net)
+                      0.021717    0.000056    2.311479 v u3/A (sky130_fd_sc_hd__buf_2)
+     1    0.001975    0.021628    0.100588    2.412067 v u3/X (sky130_fd_sc_hd__buf_2)
+                                                         n3 (net)
+                      0.021628    0.000038    2.412106 v u4/A (sky130_fd_sc_hd__buf_2)
+     1    0.001934    0.021540    0.100403    2.512509 v u4/X (sky130_fd_sc_hd__buf_2)
+                                                         n4 (net)
+                      0.021540    0.000038    2.512547 v u5/A (sky130_fd_sc_hd__buf_2)
+     1    0.001934    0.021540    0.100368    2.612915 v u5/X (sky130_fd_sc_hd__buf_2)
+                                                         n5 (net)
+                      0.021540    0.000038    2.612953 v u6/A (sky130_fd_sc_hd__buf_2)
+     1    0.001885    0.021434    0.100190    2.713143 v u6/X (sky130_fd_sc_hd__buf_2)
+                                                         n6 (net)
+                      0.021434    0.000037    2.713180 v u7/A (sky130_fd_sc_hd__buf_2)
+     1    0.001934    0.021540    0.100325    2.813505 v u7/X (sky130_fd_sc_hd__buf_2)
+                                                         n7 (net)
+                      0.021540    0.000038    2.813542 v u8/A (sky130_fd_sc_hd__buf_2)
+     1    0.005378    0.029279    0.111661    2.925204 v u8/X (sky130_fd_sc_hd__buf_2)
+                                                         net1 (net)
+                      0.029280    0.000191    2.925395 v output1/A (sky130_fd_sc_hd__clkdlybuf4s25_1)
+     1    0.034303    0.255396    0.407791    3.333186 v output1/X (sky130_fd_sc_hd__clkdlybuf4s25_1)
+                                                         out (net)
+                      0.255396    0.000672    3.333858 v out (out)
+                                              3.333858   data arrival time
+
+                      0.000000   10.000000   10.000000   clock null (rise edge)
+                                  0.000000   10.000000   clock network delay (ideal)
+                                 -0.250000    9.750000   clock uncertainty
+                                  0.000000    9.750000   clock reconvergence pessimism
+                                 -2.000000    7.750000   output external delay
+                                              7.750000   data required time
+---------------------------------------------------------------------------------------------
+                                              7.750000   data required time
+                                             -3.333858   data arrival time
+---------------------------------------------------------------------------------------------
+                                              4.416142   slack (MET)
+
+
+

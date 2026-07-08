@@ -1,0 +1,2 @@
+Type,Corner,Voltage,Temperature,RO Period (ps),RO Frequency (GHz),Pass/Fail
+Post-layout extracted RO,TT,1.8,27,505.69,1.9768,Pass

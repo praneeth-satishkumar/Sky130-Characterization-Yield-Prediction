@@ -1,0 +1,122 @@
+Reading timing models for corner nom_tt_025C_1v80…
+Reading timing library for the 'nom_tt_025C_1v80' corner at '/foss/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading OpenROAD database at '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/21-openroad-generatepdn/characterization_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2.0
+[INFO] Setting input delay to: 2.0
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
++ global_placement -density 0.45 -skip_io -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: (  0.460  2.720 ) um
+[INFO GPL-0004] CoreBBox: (  5.520 10.880 ) ( 494.040 486.880 ) um
+[INFO GPL-0036] Movable instances area:      12478.218 um^2
+[INFO GPL-0037] Total instances area:        17888.406 um^2
+[INFO GPL-0035] Pin density area adjust:       953.489 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:              4629
+[INFO GPL-0007] Movable instances:                1005
+[INFO GPL-0008] Fixed instances:                  3624
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                   1016
+[INFO GPL-0011] Number of pins:                   3619
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 500.000 500.000 ) um
+[INFO GPL-0013] Core BBox: (  5.520 10.880 ) ( 494.040 486.880 ) um
+[INFO GPL-0016] Core area:                  232535.520 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                232535.520 um^2
+[INFO GPL-0017] Fixed instances area:         5410.189 um^2
+[INFO GPL-0018] Movable instances area:      13431.707 um^2
+[INFO GPL-0019] Utilization:                     5.914 %
+[INFO GPL-0020] Standard cells area:         13431.707 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 1005	Region center = 0
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.4500
+[INFO GPL-0024] Movable insts average area:     13.365 um^2
+[INFO GPL-0025] Ideal bin area:                 29.700 um^2
+[INFO GPL-0026] Ideal bin count:                  7829
+[INFO GPL-0027] Total bin area:             232535.520 um^2
+[INFO GPL-0028] Bin count (X, Y):          64 ,     64
+[INFO GPL-0029] Bin size (W * H):       7.633 *  7.438 um
+[INFO GPL-0030] Number of bins:                   4096
+[INFO GPL-0007] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9924 |  3.408939e+03 |   +0.00% |  2.01e-15 |      
+       10 |   0.9885 |  2.473813e+03 |  -27.43% |  3.28e-15 |      
+       20 |   0.9877 |  2.455684e+03 |   -0.73% |  5.34e-15 |      
+       30 |   0.9873 |  2.454654e+03 |   -0.04% |  8.69e-15 |      
+       40 |   0.9870 |  2.453119e+03 |   -0.06% |  1.42e-14 |      
+       50 |   0.9866 |  2.452148e+03 |   -0.04% |  2.31e-14 |      
+       60 |   0.9865 |  2.454009e+03 |   +0.08% |  3.76e-14 |      
+       70 |   0.9865 |  2.456604e+03 |   +0.11% |  6.12e-14 |      
+       80 |   0.9866 |  2.461803e+03 |   +0.21% |  9.97e-14 |      
+       90 |   0.9865 |  2.471228e+03 |   +0.38% |  1.62e-13 |      
+      100 |   0.9862 |  2.486676e+03 |   +0.63% |  2.65e-13 |      
+      110 |   0.9855 |  2.511110e+03 |   +0.98% |  4.31e-13 |      
+      120 |   0.9850 |  2.549128e+03 |   +1.51% |  7.02e-13 |      
+      130 |   0.9847 |  2.612431e+03 |   +2.48% |  1.14e-12 |      
+      140 |   0.9838 |  2.722496e+03 |   +4.21% |  1.86e-12 |      
+      150 |   0.9784 |  2.929214e+03 |   +7.59% |  3.03e-12 |      
+      160 |   0.9648 |  3.249573e+03 |  +10.94% |  4.94e-12 |      
+      170 |   0.9405 |  3.623248e+03 |  +11.50% |  8.05e-12 |      
+      180 |   0.9219 |  3.917936e+03 |   +8.13% |  1.31e-11 |      
+      190 |   0.8947 |  4.303255e+03 |   +9.83% |  2.13e-11 |      
+      200 |   0.8714 |  4.850382e+03 |  +12.71% |  3.48e-11 |      
+      210 |   0.8476 |  5.584041e+03 |  +15.13% |  5.66e-11 |      
+      220 |   0.8187 |  5.939518e+03 |   +6.37% |  9.23e-11 |      
+      230 |   0.7798 |  6.446043e+03 |   +8.53% |  1.50e-10 |      
+      240 |   0.7347 |  7.056800e+03 |   +9.47% |  2.45e-10 |      
+      250 |   0.6952 |  7.604919e+03 |   +7.77% |  3.99e-10 |      
+      260 |   0.6555 |  7.970964e+03 |   +4.81% |  6.49e-10 |      
+      270 |   0.6027 |  8.609982e+03 |   +8.02% |  1.06e-09 |      
+      280 |   0.5592 |  9.096530e+03 |   +5.65% |  1.72e-09 |      
+      290 |   0.5109 |  9.625898e+03 |   +5.82% |  2.81e-09 |      
+      300 |   0.4605 |  1.013985e+04 |   +5.34% |  4.57e-09 |      
+      310 |   0.4117 |  1.055557e+04 |   +4.10% |  7.44e-09 |      
+      320 |   0.3653 |  1.096411e+04 |   +3.87% |  1.21e-08 |      
+      330 |   0.3303 |  1.118921e+04 |   +2.05% |  1.86e-08 |      
+      340 |   0.2914 |  1.139119e+04 |   +1.81% |  2.74e-08 |      
+      350 |   0.2525 |  1.169887e+04 |   +2.70% |  4.03e-08 |      
+      360 |   0.2253 |  1.196278e+04 |   +2.26% |  5.94e-08 |      
+      370 |   0.1969 |  1.216064e+04 |   +1.65% |  8.76e-08 |      
+      380 |   0.1720 |  1.226928e+04 |   +0.89% |  1.29e-07 |      
+      390 |   0.1411 |  1.234051e+04 |   +0.58% |  1.90e-07 |      
+      400 |   0.1220 |  1.241506e+04 |   +0.60% |  2.80e-07 |      
+      410 |   0.1019 |  1.250452e+04 |   +0.72% |  4.12e-07 |      
+      412 |   0.0986 |  1.253661e+04 |          |  4.63e-07 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 412
+[INFO GPL-1002] Placed Cell Area            13431.7071
+[INFO GPL-1003] Available Free Area         227125.3312
+[INFO GPL-1004] Minimum Feasible Density        0.0600 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.0657
+[INFO GPL-1008]     - For 80% usage of free space: 0.0739
+[INFO GPL-1009]     - For 50% usage of free space: 0.1183
+[INFO GPL-1014] Final placement area: 13431.71 (+0.00%)
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Fill cell                               350    1313.76
+  Tap cell                               3274    4096.43
+  Buffer                                    1       5.00
+  Inverter                                286    1073.53
+  Sequential cell                         270    7094.30
+  Multi-Input combinational cell          448    4305.38
+  Total                                  4629   17888.41
+Writing OpenROAD database to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/24-openroad-globalplacementskipio/characterization_top.odb'…
+Writing netlist to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/24-openroad-globalplacementskipio/characterization_top.nl.v'…
+Writing powered netlist to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/24-openroad-globalplacementskipio/characterization_top.pnl.v'…
+Writing layout to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/24-openroad-globalplacementskipio/characterization_top.def'…
+Writing timing constraints to '/foss/designs/sky130_characterization/openlane/characterization_top_sky130/runs/RUN_2026-06-23_12-08-15/24-openroad-globalplacementskipio/characterization_top.sdc'…

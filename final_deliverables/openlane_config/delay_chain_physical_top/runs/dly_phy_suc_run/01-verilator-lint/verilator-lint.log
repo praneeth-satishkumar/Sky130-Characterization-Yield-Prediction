@@ -1,0 +1,221 @@
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:15:25: Instance has missing pin: 'VPWR'
+   15 |  sky130_fd_sc_hd__buf_2 u0 (.A(in), .X(n0));
+      |                         ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+                     ... For warning description see https://verilator.org/warn/PINMISSING?v=5.048
+                     ... Use "/* verilator lint_off PINMISSING */" and lint_on around source to disable this message.
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:15:25: Instance has missing pin: 'VGND'
+   15 |  sky130_fd_sc_hd__buf_2 u0 (.A(in), .X(n0));
+      |                         ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:15:25: Instance has missing pin: 'VPB'
+   15 |  sky130_fd_sc_hd__buf_2 u0 (.A(in), .X(n0));
+      |                         ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:15:25: Instance has missing pin: 'VNB'
+   15 |  sky130_fd_sc_hd__buf_2 u0 (.A(in), .X(n0));
+      |                         ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:16:32: Instance has missing pin: 'VPWR'
+   16 |         sky130_fd_sc_hd__buf_2 u1 (.A(n0), .X(n1));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:16:32: Instance has missing pin: 'VGND'
+   16 |         sky130_fd_sc_hd__buf_2 u1 (.A(n0), .X(n1));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:16:32: Instance has missing pin: 'VPB'
+   16 |         sky130_fd_sc_hd__buf_2 u1 (.A(n0), .X(n1));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:16:32: Instance has missing pin: 'VNB'
+   16 |         sky130_fd_sc_hd__buf_2 u1 (.A(n0), .X(n1));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:17:32: Instance has missing pin: 'VPWR'
+   17 |         sky130_fd_sc_hd__buf_2 u2 (.A(n1), .X(n2));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:17:32: Instance has missing pin: 'VGND'
+   17 |         sky130_fd_sc_hd__buf_2 u2 (.A(n1), .X(n2));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:17:32: Instance has missing pin: 'VPB'
+   17 |         sky130_fd_sc_hd__buf_2 u2 (.A(n1), .X(n2));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:17:32: Instance has missing pin: 'VNB'
+   17 |         sky130_fd_sc_hd__buf_2 u2 (.A(n1), .X(n2));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:18:32: Instance has missing pin: 'VPWR'
+   18 |         sky130_fd_sc_hd__buf_2 u3 (.A(n2), .X(n3));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:18:32: Instance has missing pin: 'VGND'
+   18 |         sky130_fd_sc_hd__buf_2 u3 (.A(n2), .X(n3));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:18:32: Instance has missing pin: 'VPB'
+   18 |         sky130_fd_sc_hd__buf_2 u3 (.A(n2), .X(n3));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:18:32: Instance has missing pin: 'VNB'
+   18 |         sky130_fd_sc_hd__buf_2 u3 (.A(n2), .X(n3));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:19:32: Instance has missing pin: 'VPWR'
+   19 |         sky130_fd_sc_hd__buf_2 u4 (.A(n3), .X(n4));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:19:32: Instance has missing pin: 'VGND'
+   19 |         sky130_fd_sc_hd__buf_2 u4 (.A(n3), .X(n4));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:19:32: Instance has missing pin: 'VPB'
+   19 |         sky130_fd_sc_hd__buf_2 u4 (.A(n3), .X(n4));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:19:32: Instance has missing pin: 'VNB'
+   19 |         sky130_fd_sc_hd__buf_2 u4 (.A(n3), .X(n4));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:20:32: Instance has missing pin: 'VPWR'
+   20 |         sky130_fd_sc_hd__buf_2 u5 (.A(n4), .X(n5));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:20:32: Instance has missing pin: 'VGND'
+   20 |         sky130_fd_sc_hd__buf_2 u5 (.A(n4), .X(n5));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:20:32: Instance has missing pin: 'VPB'
+   20 |         sky130_fd_sc_hd__buf_2 u5 (.A(n4), .X(n5));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:20:32: Instance has missing pin: 'VNB'
+   20 |         sky130_fd_sc_hd__buf_2 u5 (.A(n4), .X(n5));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:21:32: Instance has missing pin: 'VPWR'
+   21 |         sky130_fd_sc_hd__buf_2 u6 (.A(n5), .X(n6));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:21:32: Instance has missing pin: 'VGND'
+   21 |         sky130_fd_sc_hd__buf_2 u6 (.A(n5), .X(n6));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:21:32: Instance has missing pin: 'VPB'
+   21 |         sky130_fd_sc_hd__buf_2 u6 (.A(n5), .X(n6));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:21:32: Instance has missing pin: 'VNB'
+   21 |         sky130_fd_sc_hd__buf_2 u6 (.A(n5), .X(n6));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:22:32: Instance has missing pin: 'VPWR'
+   22 |         sky130_fd_sc_hd__buf_2 u7 (.A(n6), .X(n7));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:22:32: Instance has missing pin: 'VGND'
+   22 |         sky130_fd_sc_hd__buf_2 u7 (.A(n6), .X(n7));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:22:32: Instance has missing pin: 'VPB'
+   22 |         sky130_fd_sc_hd__buf_2 u7 (.A(n6), .X(n7));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:22:32: Instance has missing pin: 'VNB'
+   22 |         sky130_fd_sc_hd__buf_2 u7 (.A(n6), .X(n7));
+      |                                ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:23:25: Instance has missing pin: 'VPWR'
+   23 |  sky130_fd_sc_hd__buf_2 u8 (.A(n7), .X(out));
+      |                         ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:37: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                     ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:23:25: Instance has missing pin: 'VGND'
+   23 |  sky130_fd_sc_hd__buf_2 u8 (.A(n7), .X(out));
+      |                         ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:43: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                           ^~~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:23:25: Instance has missing pin: 'VPB'
+   23 |  sky130_fd_sc_hd__buf_2 u8 (.A(n7), .X(out));
+      |                         ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:49: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                 ^~~
+%Warning-PINMISSING: /foss/designs/sky130_characterization/rtl/delay_chain_physical_top.v:23:25: Instance has missing pin: 'VNB'
+   23 |  sky130_fd_sc_hd__buf_2 u8 (.A(n7), .X(out));
+      |                         ^~
+                     /foss/designs/sky130_characterization/openlane/delay_chain_physical_top/runs/RUN_2026-07-07_15-42-53/tmp/28d86fa8a6624d42bdd2e66c13a5f274.bb.v:2058:54: ... Location of port declaration
+ 2058 | module sky130_fd_sc_hd__buf_2(X, A, VPWR, VGND, VPB, VNB);
+      |                                                      ^~~
+- V e r i l a t i o n   R e p o r t: Verilator 5.048 2026-04-26 rev v5.048
+- Verilator: Built from 0.424 MB sources in 448 modules, into 0.002 MB in 3 C++ files needing 0.000 MB
+- Verilator: Walltime 0.099 s (elab=0.009, cvt=0.001, bld=0.000); cpu 0.038 s on 1 threads; allocated 39.047 MB

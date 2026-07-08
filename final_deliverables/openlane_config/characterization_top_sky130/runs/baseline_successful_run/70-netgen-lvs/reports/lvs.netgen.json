@@ -1,0 +1,958 @@
+[
+  {
+   "pins": [
+      [
+        "VDD",
+        "VSS"
+      ], [
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VDD",
+        "VSS"
+      ], [
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Q",
+        "CLK",
+        "D",
+        "RESET_B",
+        "VDD",
+        "VSS"
+      ], [
+        "Q",
+        "CLK",
+        "D",
+        "RESET_B",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VDD",
+        "VSS"
+      ], [
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "VDD",
+        "VSS"
+      ], [
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A0",
+        "A1",
+        "S",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A0",
+        "A1",
+        "S",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "B_N",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "B_N",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A_N",
+        "B",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A_N",
+        "B",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A1",
+        "A2",
+        "B1",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A1",
+        "A2",
+        "B1",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "B",
+        "C",
+        "D",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "B",
+        "C",
+        "D",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "B",
+        "C",
+        "D",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "B",
+        "C",
+        "D",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A_N",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A_N",
+        "B",
+        "C",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "B",
+        "C",
+        "D",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "B",
+        "C",
+        "D",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "L_LO",
+        "VDD",
+        "VSS"
+      ], [
+        "L_LO",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "X",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ], [
+        "X",
+        "A",
+        "B",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "Y",
+        "A",
+        "B",
+        "C",
+        "D",
+        "VDD",
+        "VSS"
+      ], [
+        "Y",
+        "A",
+        "B",
+        "C",
+        "D",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "VDD",
+        "VSS"
+      ], [
+        "A",
+        "VDD",
+        "VSS"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "characterization_top",
+      "characterization_top"
+   ],
+   "devices": [
+       [
+         ["sg13g2_decap_8", 1],
+         ["sg13g2_fill_1", 1],
+         ["sg13g2_dfrbpq_1", 270],
+         ["sg13g2_decap_4", 1],
+         ["sg13g2_dlygate4sd3_1", 413],
+         ["sg13g2_fill_2", 1],
+         ["sg13g2_inv_1", 369],
+         ["sg13g2_mux2_1", 74],
+         ["sg13g2_buf_1", 209],
+         ["sg13g2_nand2_1", 110],
+         ["sg13g2_o21ai_1", 101],
+         ["sg13g2_and2_1", 21],
+         ["sg13g2_a22oi_1", 71],
+         ["sg13g2_nor3_1", 23],
+         ["sg13g2_nor2b_1", 11],
+         ["sg13g2_nand2b_1", 9],
+         ["sg13g2_a21oi_1", 39],
+         ["sg13g2_nand3_1", 19],
+         ["sg13g2_a21o_1", 13],
+         ["sg13g2_nor2_1", 24],
+         ["sg13g2_buf_8", 24],
+         ["sg13g2_a221oi_1", 4],
+         ["sg13g2_nand4_1", 10],
+         ["sg13g2_inv_2", 6],
+         ["sg13g2_or3_1", 2],
+         ["sg13g2_and3_1", 6],
+         ["sg13g2_inv_8", 4],
+         ["sg13g2_or2_1", 9],
+         ["sg13g2_buf_16", 5],
+         ["sg13g2_inv_4", 1],
+         ["sg13g2_and4_1", 3],
+         ["sg13g2_nand3b_1", 8],
+         ["sg13g2_xnor2_1", 9],
+         ["sg13g2_or4_1", 4],
+         ["sg13g2_tielo", 2],
+         ["sg13g2_xor2_1", 1],
+         ["sg13g2_nor4_1", 10],
+         ["sg13g2_antennanp", 3 ]
+       ], [
+         ["sg13g2_decap_8", 1 ],
+         ["sg13g2_fill_1", 1 ],
+         ["sg13g2_dfrbpq_1", 270 ],
+         ["sg13g2_decap_4", 1 ],
+         ["sg13g2_dlygate4sd3_1", 413 ],
+         ["sg13g2_fill_2", 1 ],
+         ["sg13g2_inv_1", 369 ],
+         ["sg13g2_mux2_1", 74 ],
+         ["sg13g2_buf_1", 209 ],
+         ["sg13g2_nand2_1", 110 ],
+         ["sg13g2_o21ai_1", 101 ],
+         ["sg13g2_and2_1", 21 ],
+         ["sg13g2_a22oi_1", 71 ],
+         ["sg13g2_nor3_1", 23 ],
+         ["sg13g2_nor2b_1", 11 ],
+         ["sg13g2_nand2b_1", 9 ],
+         ["sg13g2_a21oi_1", 39 ],
+         ["sg13g2_nand3_1", 19 ],
+         ["sg13g2_a21o_1", 13 ],
+         ["sg13g2_nor2_1", 24 ],
+         ["sg13g2_buf_8", 24 ],
+         ["sg13g2_a221oi_1", 4 ],
+         ["sg13g2_nand4_1", 10 ],
+         ["sg13g2_inv_2", 6 ],
+         ["sg13g2_or3_1", 2 ],
+         ["sg13g2_and3_1", 6 ],
+         ["sg13g2_inv_8", 4 ],
+         ["sg13g2_or2_1", 9 ],
+         ["sg13g2_buf_16", 5 ],
+         ["sg13g2_inv_4", 1 ],
+         ["sg13g2_and4_1", 3 ],
+         ["sg13g2_nand3b_1", 8 ],
+         ["sg13g2_xnor2_1", 9 ],
+         ["sg13g2_or4_1", 4 ],
+         ["sg13g2_tielo", 2 ],
+         ["sg13g2_xor2_1", 1 ],
+         ["sg13g2_nor4_1", 10 ],
+         ["sg13g2_antennanp", 3 ]
+       ]
+   ],
+   "nets": [
+    1897,
+    1897
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "clock_status_reg[7]",
+        "clock_status_reg[6]",
+        "clk",
+        "rst",
+        "ro_clk_2",
+        "start",
+        "ro_clk_0",
+        "ro_clk_1",
+        "clk_stuck_low",
+        "clk_stuck_high",
+        "clk_slow",
+        "clk_fast",
+        "clk_bad_duty",
+        "clock_status_reg[5]",
+        "status_reg[4]",
+        "status_reg[0]",
+        "ro_count_reg_2[5]",
+        "ro_count_reg_2[4]",
+        "ro_count_reg_1[0]",
+        "delay_count_reg_0[2]",
+        "delay_count_reg_1[2]",
+        "ro_count_reg_2[6]",
+        "status_reg[6]",
+        "clock_status_reg[1]",
+        "clock_status_reg[0]",
+        "clock_status_reg[2]",
+        "clock_status_reg[4]",
+        "clock_status_reg[3]",
+        "status_reg[7]",
+        "status_reg[5]",
+        "busy",
+        "done",
+        "status_reg[1]",
+        "ro_count_reg_2[1]",
+        "delay_count_reg_0[9]",
+        "delay_count_reg_0[5]",
+        "delay_count_reg_1[12]",
+        "delay_count_reg_1[11]",
+        "delay_count_reg_1[10]",
+        "delay_count_reg_0[10]",
+        "delay_count_reg_0[0]",
+        "delay_count_reg_0[11]",
+        "delay_count_reg_0[3]",
+        "delay_count_reg_1[3]",
+        "delay_count_reg_0[1]",
+        "delay_count_reg_1[1]",
+        "delay_count_reg_1[9]",
+        "delay_count_reg_0[7]",
+        "delay_count_reg_2[13]",
+        "delay_count_reg_2[12]",
+        "delay_count_reg_2[11]",
+        "delay_count_reg_2[10]",
+        "delay_count_reg_2[2]",
+        "delay_count_reg_2[1]",
+        "delay_count_reg_2[7]",
+        "delay_count_reg_2[8]",
+        "delay_count_reg_2[9]",
+        "delay_count_reg_2[6]",
+        "delay_count_reg_2[4]",
+        "ro_count_reg_0[1]",
+        "ro_count_reg_0[0]",
+        "ro_count_reg_0[4]",
+        "ro_count_reg_0[2]",
+        "ro_count_reg_0[7]",
+        "ro_count_reg_1[1]",
+        "ro_count_reg_1[2]",
+        "ro_count_reg_0[3]",
+        "ro_count_reg_1[3]",
+        "ro_count_reg_0[6]",
+        "ro_count_reg_1[6]",
+        "ro_count_reg_0[5]",
+        "ro_count_reg_1[7]",
+        "ro_count_reg_1[5]",
+        "ro_count_reg_1[4]",
+        "delay_count_reg_0[13]",
+        "delay_count_reg_0[12]",
+        "delay_count_reg_0[15]",
+        "delay_count_reg_1[0]",
+        "delay_count_reg_1[13]",
+        "delay_count_reg_1[14]",
+        "delay_count_reg_0[14]",
+        "delay_count_reg_1[15]",
+        "delay_count_reg_1[5]",
+        "delay_count_reg_2[0]",
+        "delay_count_reg_2[15]",
+        "delay_count_reg_2[14]",
+        "delay_count_reg_2[3]",
+        "delay_count_reg_2[5]",
+        "delay_count_reg_0[4]",
+        "delay_count_reg_0[6]",
+        "delay_count_reg_1[4]",
+        "delay_count_reg_0[8]",
+        "delay_count_reg_1[6]",
+        "delay_count_reg_1[7]",
+        "delay_count_reg_1[8]",
+        "corner_class_reg[1]",
+        "corner_class_reg[0]",
+        "corner_class_reg[2]",
+        "ro_count_reg_2[0]",
+        "ro_count_reg_2[2]",
+        "ro_count_reg_2[3]",
+        "ro_count_reg_2[7]",
+        "status_reg[2]",
+        "status_reg[3]",
+        "VPWR",
+        "VGND"
+      ], [
+        "clock_status_reg[7]",
+        "clock_status_reg[6]",
+        "clk",
+        "rst",
+        "ro_clk_2",
+        "start",
+        "ro_clk_0",
+        "ro_clk_1",
+        "clk_stuck_low",
+        "clk_stuck_high",
+        "clk_slow",
+        "clk_fast",
+        "clk_bad_duty",
+        "clock_status_reg[5]",
+        "status_reg[4]",
+        "status_reg[0]",
+        "ro_count_reg_2[5]",
+        "ro_count_reg_2[4]",
+        "ro_count_reg_1[0]",
+        "delay_count_reg_0[2]",
+        "delay_count_reg_1[2]",
+        "ro_count_reg_2[6]",
+        "status_reg[6]",
+        "clock_status_reg[1]",
+        "clock_status_reg[0]",
+        "clock_status_reg[2]",
+        "clock_status_reg[4]",
+        "clock_status_reg[3]",
+        "status_reg[7]",
+        "status_reg[5]",
+        "busy",
+        "done",
+        "status_reg[1]",
+        "ro_count_reg_2[1]",
+        "delay_count_reg_0[9]",
+        "delay_count_reg_0[5]",
+        "delay_count_reg_1[12]",
+        "delay_count_reg_1[11]",
+        "delay_count_reg_1[10]",
+        "delay_count_reg_0[10]",
+        "delay_count_reg_0[0]",
+        "delay_count_reg_0[11]",
+        "delay_count_reg_0[3]",
+        "delay_count_reg_1[3]",
+        "delay_count_reg_0[1]",
+        "delay_count_reg_1[1]",
+        "delay_count_reg_1[9]",
+        "delay_count_reg_0[7]",
+        "delay_count_reg_2[13]",
+        "delay_count_reg_2[12]",
+        "delay_count_reg_2[11]",
+        "delay_count_reg_2[10]",
+        "delay_count_reg_2[2]",
+        "delay_count_reg_2[1]",
+        "delay_count_reg_2[7]",
+        "delay_count_reg_2[8]",
+        "delay_count_reg_2[9]",
+        "delay_count_reg_2[6]",
+        "delay_count_reg_2[4]",
+        "ro_count_reg_0[1]",
+        "ro_count_reg_0[0]",
+        "ro_count_reg_0[4]",
+        "ro_count_reg_0[2]",
+        "ro_count_reg_0[7]",
+        "ro_count_reg_1[1]",
+        "ro_count_reg_1[2]",
+        "ro_count_reg_0[3]",
+        "ro_count_reg_1[3]",
+        "ro_count_reg_0[6]",
+        "ro_count_reg_1[6]",
+        "ro_count_reg_0[5]",
+        "ro_count_reg_1[7]",
+        "ro_count_reg_1[5]",
+        "ro_count_reg_1[4]",
+        "delay_count_reg_0[13]",
+        "delay_count_reg_0[12]",
+        "delay_count_reg_0[15]",
+        "delay_count_reg_1[0]",
+        "delay_count_reg_1[13]",
+        "delay_count_reg_1[14]",
+        "delay_count_reg_0[14]",
+        "delay_count_reg_1[15]",
+        "delay_count_reg_1[5]",
+        "delay_count_reg_2[0]",
+        "delay_count_reg_2[15]",
+        "delay_count_reg_2[14]",
+        "delay_count_reg_2[3]",
+        "delay_count_reg_2[5]",
+        "delay_count_reg_0[4]",
+        "delay_count_reg_0[6]",
+        "delay_count_reg_1[4]",
+        "delay_count_reg_0[8]",
+        "delay_count_reg_1[6]",
+        "delay_count_reg_1[7]",
+        "delay_count_reg_1[8]",
+        "corner_class_reg[1]",
+        "corner_class_reg[0]",
+        "corner_class_reg[2]",
+        "ro_count_reg_2[0]",
+        "ro_count_reg_2[2]",
+        "ro_count_reg_2[3]",
+        "ro_count_reg_2[7]",
+        "status_reg[2]",
+        "status_reg[3]",
+        "VPWR",
+        "VGND"
+      ]
+   ]
+  }
+]

@@ -1,0 +1,4 @@
+Corner,Voltage,Temperature,RO Period (ps),RO Frequency (GHz),Classification,Pass/Fail
+SS,1.6,100,481.9,2.075,Slow,Pass
+TT,1.8,27,245.5,4.073,Typical,Pass
+FF,1.95,-40,156.7,6.38,Fast,Pass

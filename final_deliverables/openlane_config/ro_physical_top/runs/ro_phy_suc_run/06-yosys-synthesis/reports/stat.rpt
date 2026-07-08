@@ -1,0 +1,24 @@
+100. Printing statistics.
+
+=== ro_physical_top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+        7        - wires
+        7        - wire bits
+        7        - public wires
+        7        - public wire bits
+        2        - ports
+        2        - port bits
+        6    5.005 cells
+        1    5.005   sky130_fd_sc_hd__buf_2
+        4        -   sky130_fd_sc_hd__inv_1
+        1        -   sky130_fd_sc_hd__nand2_1
+
+   Area for cell type \sky130_fd_sc_hd__inv_1 is unknown!
+   Area for cell type \sky130_fd_sc_hd__nand2_1 is unknown!
+
+   Chip area for module '\ro_physical_top': 5.004800
+     of which used for sequential elements: 0.000000 (0.00%)
+
