@@ -156,7 +156,7 @@ The physical implementation flow included:
 
 ### Full-Chip Layout
 
-![Full-chip KLayout layout](final_deliverables/screenshots/full_chip_klayout_layout.png)
+![Full-chip KLayout layout](final_deliverables/screenshots/raw_screenshots/full_chip_klayout_layout.png)
 
 ---
 
@@ -175,15 +175,15 @@ The old simulated input-clock RO counter data was removed from the final results
 
 ### RO Layout
 
-![RO physical layout](final_deliverables/screenshots/ro_physical_layout_klayout.png)
+![RO physical layout](final_deliverables/screenshots/raw_screenshots/ro_physical_layout_klayout.png)
 
 ### TT RO SPICE Waveform
 
-![TT RO SPICE waveform](final_deliverables/screenshots/ro_spice_tt_waveform.png)
+![TT RO SPICE waveform](final_deliverables/screenshots/raw_screenshots/ro_spice_tt_waveform.png)
 
 ### TT Post-layout Extracted RO Waveform
 
-![TT post-layout extracted RO waveform](final_deliverables/screenshots/ro_postlayout_extracted_waveform.png)
+![TT post-layout extracted RO waveform](final_deliverables/screenshots/raw_screenshots/ro_postlayout_extracted_waveform.png)
 
 ---
 
@@ -197,11 +197,11 @@ A physical delay-chain layout was created and verified. The delay chain was simu
 
 ### Delay-Chain Layout
 
-![Delay-chain layout](final_deliverables/screenshots/delay_chain_physical_layout_klayout.png)
+![Delay-chain layout](final_deliverables/screenshots/raw_screenshots/delay_chain_physical_layout_klayout.png)
 
 ### Delay-Chain SPICE Waveform
 
-![Delay-chain SPICE waveform](final_deliverables/screenshots/delay_chain_postlayout_spice_waveform.png)
+![Delay-chain SPICE waveform](final_deliverables/screenshots/raw_screenshots/delay_chain_postlayout_spice_waveform.png)
 
 ---
 
